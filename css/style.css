@@ -1,0 +1,23 @@
+#name{
+    color: rgb(92, 19, 151);
+    font-family: "arial";
+    font-size: 40px;
+}
+#course{
+    color: black;
+    font-family: "arial";
+    font-size: 20px;
+}
+#email{
+    color: black;
+    font-family: "arial";
+    font-size: 20px;
+}
+.paperlink {
+    color:  rgb(92, 19, 151);
+    font-family: "areal";
+    font-size: 15px;
+}
+.paperlink:hover {
+    color:  red;
+}
