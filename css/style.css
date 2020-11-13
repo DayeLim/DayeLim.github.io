@@ -21,3 +21,10 @@
 .paperlink:hover {
     color:  red;
 }
+div.box {
+    width: 1000px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    padding: 10px 30px;
+    background-color: white;
+}
