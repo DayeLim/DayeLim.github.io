@@ -3,6 +3,7 @@
     color: rgb(71, 71, 71);
 }
 #name {
+    font-weight: bold;
     color: rgb(92, 19, 151);
     font-size: 40px;
     padding: 10px;
@@ -26,6 +27,7 @@
     padding: 0px 0px 0px 0px;
 }
 #course, #orcid, #email, #interest {
+    font-weight: bold;
     color: black;
     font-size: 20px;
 }
