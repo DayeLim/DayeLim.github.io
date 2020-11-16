@@ -7,7 +7,7 @@ var papers = create2DArray(13, 6);
 papers[12] = ["Super-resolution of SDO/HMI magnetograms using novel deep learning methods",
              "2020",
              "Astrophysical Journal Letters, 897, L32",
-             "Sumiaya Rahman, Yong-Jae Moon, Eunsu Park, Ashraf Siddique, Il-Hyun Cho, and Daye Lim, ",
+             "Sumiaya Rahman, Yong-Jae Moon, Eunsu Park, Ashraf Siddique, Il-Hyun Cho, and Daye Lim",
              "10.3847/2041-8213/ab9d79",
              "https://github.com/DayeLim/DayeLim.github.io/raw/main/papers/Rahman_2020_ApJL_Super-resolutionOfHMIMagnetogramsUsingNovelDeepLearningMethods.pdf"]
 papers[11] = ["Higher radial harmonics of sausage oscillations in coronal loops",
@@ -124,7 +124,12 @@ window.onload = function() {
 
         var div_papernames = document.createElement('div');
         div_papernames.className = 'div_papernames';
-        div_papernames.innerHTML = papers[i][3];
+        if(papers[i][3].match("Daye Lim")) {
+            div_papernames.innerHTML = papers[i][3].replace("Daye Lim", "<u><b>Daye Lim</b></u>");
+        } else if(papers[i][3].match("Dayeh Lim")) {
+            div_papernames.innerHTML = papers[i][3].replace("Dayeh Lim", "<u><b>Dayeh Lim</b></u>");
+        } else {
+        }
 
         paper[i].appendChild(div_papernames);
 
