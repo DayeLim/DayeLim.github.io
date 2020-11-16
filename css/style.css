@@ -30,6 +30,7 @@
     font-weight: bold;
     color: black;
     font-size: 20px;
+    padding: 10px 10px;
 }
 div.info_1, .info_2 {
     width: 1000px;
