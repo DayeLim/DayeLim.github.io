@@ -2,35 +2,44 @@
     font-family: "arial";
     color: rgb(71, 71, 71);
 }
-#name{
+#name {
     color: rgb(92, 19, 151);
     font-size: 40px;
+    padding: 10px;
 }
-#course{
+#img_orcid_qr, #img_logo {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    padding: 0px 0px 0px 0px;
+}
+#course, #orcid, #email, #interest {
     color: black;
     font-size: 20px;
 }
-#email{
-    color: black;
-    font-size: 20px;
+div.info_1, .info_2 {
+    width: 1000px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    padding: 10px 30px;
+    background-color: white;
 }
-#interest{
-    color: black;
-    font-size: 20px;
-}
-.paperlink {
-    color:  rgb(92, 19, 151);
-    font-size: 15px;
-}
-.paperlink:hover {
-    color:  red;
-}
+
 div.box {
     width: 1000px;
     margin-bottom: 20px;
     border: 1px solid grey;
     padding: 10px 30px;
     background-color: white;
+}
+.box_title {
+    width: 1000px;
+    background-color: rgb(44, 44, 44);
+    padding: 10px 30px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;    
 }
 .paper div {
     margin-bottom: 5px;
@@ -50,9 +59,9 @@ div.box {
 .div_paperDOI{
     font-size: 15px;
 }
-.a_linkpaperDOI{
+.a_linkpaperDOI, .paperlink, .linkorcid{
     color: rgb(92, 19, 151);
 }
-.a_linkpaperDOI:hover {
+.a_linkpaperDOI:hover, .paperlink:hover, .linkorcid:hover {
     color:  red;
 }
