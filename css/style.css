@@ -7,9 +7,21 @@
     font-size: 40px;
     padding: 10px;
 }
-#img_orcid_qr, #img_logo {
+#Beauty, #img_orcid_qr {
     width: 100px;
     height: 100px;
+    vertical-align: middle;
+    padding: 0px 0px 0px 0px;
+}
+#img_orcid_qr {
+    width: 130px;
+    height: 130px;
+    vertical-align: middle;
+    padding: 0px 0px 0px 0px;
+}
+#img_logo {
+    width: 140px;
+    height: 140px;
     vertical-align: middle;
     padding: 0px 0px 0px 0px;
 }
