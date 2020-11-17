@@ -2,6 +2,13 @@
     font-family: "arial";
     color: rgb(71, 71, 71);
 }
+div.info_1, .info_2 {
+    width: 1000px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    padding: 10px 30px;
+    background-color: white;
+}
 #name {
     font-weight: bold;
     color: rgb(92, 19, 151);
@@ -31,13 +38,6 @@
     color: black;
     font-size: 20px;
     padding: 10px 10px;
-}
-div.info_1, .info_2 {
-    width: 1000px;
-    margin-bottom: 10px;
-    border: 1px solid;
-    padding: 10px 30px;
-    background-color: white;
 }
 div.box {
     width: 1000px;
