@@ -2,76 +2,82 @@
     font-family: "arial";
     color: rgb(71, 71, 71);
 }
+body {
+    font-size: 10px;
+}
 div.info_1, .info_2 {
-    width: 1000px;
-    margin-bottom: 10px;
-    border: 1px solid;
-    padding: 10px 30px;
+    width: 80rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid;
+    padding: 1rem 1rem;
     background-color: white;
 }
 #name {
     font-weight: bold;
     color: rgb(92, 19, 151);
-    font-size: 40px;
-    padding: 10px;
+    font-size: 3rem;
+    padding: 1rem;
 }
 #Beauty {
-    width: 100px;
-    height: 100px;
+    width: 5rem;
+    height: 5rem;
     vertical-align: middle;
-    padding: 0px 0px 0px 0px;
+    padding: 0rem 0rem 0rem 0rem;
 }
 #img_orcid_qr {
-    width: 130px;
-    height: 130px;
+    width: 6.5rem;
+    height: 6.5rem;
     vertical-align: middle;
-    padding: 0px 0px 0px 0px;
+    padding: 0rem 0rem 0rem 0rem;
 }
 #img_logo {
-    width: 140px;
-    height: 140px;
+    width: 7rem;
+    height: 7rem;
     vertical-align: middle;
-    padding: 0px 0px 0px 0px;
+    padding: 0rem 0rem 0rem 0rem;
 }
 #course, #orcid, #email, #interest {
     font-weight: bold;
     color: black;
-    font-size: 20px;
-    padding: 10px 10px;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.5rem;
 }
 div.box {
-    width: 1000px;
-    margin-bottom: 20px;
-    border: 1px solid grey;
-    padding: 10px 30px;
+    width: 80rem;
+    margin-bottom: 0.1rem;
+    border: 0.1rem solid grey;
+    padding: 1rem 1rem;
     background-color: white;
 }
 .box_title {
-    width: 1000px;
+    width: 80rem;
     background-color: rgb(44, 44, 44);
-    padding: 10px 30px;
-    border: 1px solid;
-    margin-bottom: 10px;
+    padding: 1rem 1rem;
+    border: 0.1rem solid black;
+    margin-bottom: 0.1rem;
     color: white;
-    font-size: 20px;    
+    font-size: 1.5rem;    
 }
 .paper div {
-    margin-bottom: 5px;
+    margin-bottom: 0.2rem;
 }
 .div_papertitle{
-    font-size: 20px;
+    font-size: 1.1rem;
 }
 .div_paperyear{
-    font-size: 13px;
+    font-size: 1.2rem;
 }
 .div_paperjournal{
-    font-size: 15px;
+    font-size: 1.3rem;
 }
 .div_papernames{
-    font-size: 20px;
+    font-size: 1.4rem;
 }
 .div_paperDOI{
-    font-size: 15px;
+    font-size: 1.1rem;
+}
+.paperlink {
+    font-size: 1.1rem;
 }
 .a_linkpaperDOI, .paperlink, .linkorcid{
     color: rgb(92, 19, 151);
