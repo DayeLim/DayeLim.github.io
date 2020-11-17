@@ -86,6 +86,40 @@ papers[0] = ["Z-mode maser instability",
 window.onload = function() {
     var name = document.getElementById('name');
     name.innerHTML = 'Daye Lim';
+    var beauty = document.createElement('img');
+    beauty.id = "Beauty";
+    beauty.src = "picture/Beauty.jpg";
+    beauty.alt = "Beauty";
+    name.appendChild(beauty);
+
+    var orcid = document.createElement('img');
+    orcid.id = "img_orcid_qr";
+    orcid.src = "picture/QRcode_orcid_daye_lim.png";
+    orcid.alt = "orcid";
+    orcid.title = "ORCiD";
+    name.appendChild(orcid);
+
+    var logo = document.createElement('img');
+    logo.id = "img_logo";
+    logo.src = "picture/Research_logo.png";
+    logo.alt = "logo";
+    name.appendChild(logo);
+
+    var course = document.getElementById('course');
+    course.innerHTML = "Post-doctoral Position, Department of Astronomy and Space Science, Kyung Hee University";
+
+    var email = document.getElementById('email');
+    email.innerHTML = "dalim@khu.ac.kr";
+
+    var div_orcid = document.getElementById("orcid");
+    div_orcid.innerHTML = "ORCiD: ";
+    
+    var link_orcid = document.createElement('a');
+    link_orcid.className = "linkorcid";
+    link_orcid.href = "https://orcid.org/0000-0001-9914-9080";
+    link_orcid.target = "_blank";
+    div_orcid.appendChild(link_orcid);
+    link_orcid.innerHTML = "0000-0001-9914-9080";
 
     var p_length = papers.length-1;
     var boxes = document.getElementsByClassName('boxes');
