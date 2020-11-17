@@ -84,9 +84,12 @@ papers[0] = ["Z-mode maser instability",
               "https://github.com/DayeLim/DayeLim.github.io/raw/main/papers/Yi_2013_JGR_Z-modeMaserInstability.pdf"]
 
 window.onload = function() {
+    var name = document.getElementById('name');
+    name.innerHTML = 'Daye Lim';
+
     var p_length = papers.length-1;
     var boxes = document.getElementsByClassName('boxes');
-    
+
     for(var i in papers) {    
         var div_box = document.createElement('div');
         div_box.className = 'box';
