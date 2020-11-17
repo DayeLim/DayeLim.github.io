@@ -105,15 +105,20 @@ window.onload = function() {
     logo.alt = "logo";
     name.appendChild(logo);
 
-    var course = document.getElementById('course');
+    var info_1 = document.getElementsByClassName("info_1");
+    var course = document.createElement('div');
+    course.id = "course";
+    info_1[0].appendChild(course);
     course.innerHTML = "Post-doctoral Position, Department of Astronomy and Space Science, Kyung Hee University";
-
-    var email = document.getElementById('email');
+    var email = document.createElement('div');
+    email.id = "email";
+    info_1[0].appendChild(email);
     email.innerHTML = "dalim@khu.ac.kr";
-
-    var div_orcid = document.getElementById("orcid");
+    var div_orcid = document.createElement('div');
+    div_orcid.id = "orcid";
+    info_1[0].appendChild(div_orcid);
     div_orcid.innerHTML = "ORCiD: ";
-    
+
     var link_orcid = document.createElement('a');
     link_orcid.className = "linkorcid";
     link_orcid.href = "https://orcid.org/0000-0001-9914-9080";
