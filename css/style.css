@@ -22,7 +22,7 @@ div.info_1, .info_2 {
     width: 5rem;
     height: 5rem;
     vertical-align: middle;
-    padding: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 1rem;
 }
 #img_orcid_qr {
     width: 6.5rem;
@@ -62,22 +62,22 @@ div.box {
     margin-bottom: 0.2rem;
 }
 .div_papertitle{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 .div_paperyear{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .div_paperjournal{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 .div_papernames{
     font-size: 1.4rem;
 }
 .div_paperDOI{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 .paperlink {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 .a_linkpaperDOI, .paperlink, .linkorcid{
     color: rgb(92, 19, 151);
