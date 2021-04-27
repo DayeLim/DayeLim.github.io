@@ -6,6 +6,22 @@
 body {
     font-size: 10px;
 }
+button {
+    font-size: 2rem;
+    color:rgb(44, 44, 44);
+    background-color:rgb(190, 190, 190);
+}
+button:hover {
+    color:rgb(92, 19, 151);
+    background-color:rgb(151, 143, 188);
+}
+div.menus {
+    width: 80rem;
+    margin-bottom: 0.1rem;
+    border: 0.1rem solid;
+    padding: 0.1rem 0.1rem;
+    background-color: white;
+}
 div.info_1, .info_2 {
     width: 80rem;
     margin-bottom: 1rem;
