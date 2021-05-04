@@ -17,6 +17,7 @@ jobs:
       - name: cd RestAPI
         run: |
           cd RestAPI
+          ls
 
       - name: ls
         run: |
