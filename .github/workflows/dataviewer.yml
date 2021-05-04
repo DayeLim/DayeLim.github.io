@@ -14,11 +14,12 @@ jobs:
         with:
           node-version: 14
 
-      - name: cd RestAPI
+      - name: node index.js
         run: |
           cd RestAPI
-          ls
+          node index.js
 
-      - name: ls
+      - name: cd data
         run: |
+          cd dataviewer/resource/
           ls
