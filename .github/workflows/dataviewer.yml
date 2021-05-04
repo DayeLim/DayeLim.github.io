@@ -14,9 +14,9 @@ jobs:
         with:
           node-version: 14
 
-      - name: mv RestAPI
+      - name: cd RestAPI
         run: |
-          mv restAPI
+          cd RestAPI
 
       - name: ls
         run: |
