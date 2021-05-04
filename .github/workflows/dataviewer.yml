@@ -10,15 +10,15 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-          with:
-            persist-credentials: false
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v2
         with:
           node-version: 14
 
       - name: git
         run: git config --global url."https://${{ secrets.PAT }}@github.com/".insteadOf ssh://git@github.com/
-        
+
       - name: pwd
         run: |
           pwd -
