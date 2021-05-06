@@ -28,7 +28,15 @@ jobs:
           cd RestAPI
           node index.js
 
-      - name: cd data
+      - name: Deploy Files
         run: |
-          cd dataviewer/resource/
-          ls
+          git config user.name ${{ secrets.GH_USER }}
+          git config user.email "${{ secrets.GH_MAIL }}"
+          git remote add gh-token "https://${{ secrets.GH_TOKEN }}@github.com/:user/:repo.git"
+          git fetch gh-token && git fetch gh-token gh-pages:gh-pages
+          git push gh-token gh-pages
+
+      # - name: cd data
+      #   run: |
+      #     cd dataviewer/resource/
+      #     ls
