@@ -19,10 +19,10 @@ jobs:
       #   run: |
       #     source ~/.bashrc
       #     echo $ENV
-      - name: set env vars
-        env:
-          foo: bar
-      - uses: actions/setup-node@v2
+      # - name: set env vars
+      #   env:
+      #     foo: bar
+      # - uses: actions/setup-node@v2
         with:
           node-version: 14
 
@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --global user.email "$USER_EMAIL"
           git config --global user.name "$USER_NAME"    
-          
+
       # - name: Deploy Files
       #   run: |
       #     git config user.name "${{ env.GH_USER }}"
