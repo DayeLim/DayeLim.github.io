@@ -16,15 +16,16 @@ jobs:
         with:
           node-version: 14
 
-      - name: git
-        run: git config --global url."https://${{ secrets.PAT }}@github.com/".insteadOf ssh://git@github.com/
+      # - name: git
+      #   run: git config --global url."https://${{ secrets.PAT }}@github.com/".insteadOf ssh://git@github.com/
 
-      - name: pwd
-        run: |
-          pwd -
+      # - name: pwd
+      #   run: |
+      #     pwd -
 
       - name: node index.js
         run: |
+          mkdir dataviewer/resource
           cd RestAPI
           node index.js
 
