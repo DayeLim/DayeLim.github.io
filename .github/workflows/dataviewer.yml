@@ -25,7 +25,6 @@ jobs:
 
       - name: node index.js
         run: |
-          mkdir dataviewer/resource
           cd RestAPI
           node index.js
 
