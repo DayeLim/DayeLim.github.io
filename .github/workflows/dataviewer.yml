@@ -43,10 +43,14 @@ jobs:
         env:
           USER_NAME: ${{ github.event.pusher.name }}
           USER_EMAIL: ${{ github.event.pusher.email }}
+          USER_TOKEN: ${{ github.event.pusher.token }}
         run: |
           git config --global user.email "$USER_EMAIL"
           git config --global user.name "$USER_NAME"    
-
+          git remote add gh-token "https://$USER_TOKEN@github.com/:user/:repo.git"
+          git fetch gh-token && git fetch gh-token gh-pages:gh-pages
+          git push gh-token gh-pages
+          
       # - name: Deploy Files
       #   run: |
       #     git config user.name "${{ env.GH_USER }}"
