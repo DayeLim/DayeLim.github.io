@@ -37,19 +37,26 @@ jobs:
         run: |
           cd RestAPI
           node index.js
-
-
-      - name: git config
-        env:
-          USER_NAME: ${{ github.event.pusher.name }}
-          USER_EMAIL: ${{ github.event.pusher.email }}
-          USER_TOKEN: ${{ github.event.pusher.token }}
+      
+      - name: actions/checkout@v2
         run: |
-          git config --global user.email "$USER_EMAIL"
-          git config --global user.name "$USER_NAME"    
-          git remote add gh-token "https://$USER_TOKEN@github.com/:user/:repo.git"
-          git fetch gh-token && git fetch gh-token gh-pages:gh-pages
-          git push gh-token gh-pages
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"
+          git push
+
+      # - name: git config
+      #   env:
+      #     USER_NAME: ${{ github.event.pusher.name }}
+      #     USER_EMAIL: ${{ github.event.pusher.email }}
+      #     USER_TOKEN: ${{ github.event.pusher.token }}
+      #   run: |
+      #     git config --global user.email "$USER_EMAIL"
+      #     git config --global user.name "$USER_NAME"    
+      #     git remote add gh-token "https://$USER_TOKEN@github.com/:user/:repo.git"
+      #     git fetch gh-token && git fetch gh-token gh-pages:gh-pages
+      #     git push gh-token gh-pages
           
       # - name: Deploy Files
       #   run: |
