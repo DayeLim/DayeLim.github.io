@@ -11,7 +11,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
         with:
-          persist-credentials: false
+          ref: ${{ github.event.pull_request.head.sha }}
       # - name: environment
       #   run: |
       #     echo "export ENV=DEV" > ~/.bashrc
@@ -44,6 +44,7 @@ jobs:
           git config user.email github-actions@github.com
           git add .
           git commit -m "generated"
+          git remote add origin https://github.com/{USER_NAME}/{REPOSITORY_NAME}.git
           git push --set-upstream origin master
 
       # - name: git config
