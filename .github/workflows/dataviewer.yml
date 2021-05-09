@@ -39,7 +39,7 @@ jobs:
 
       - name: delete files
         run: |
-          rm dataviewer/resource/*.*
+          rm dataviewer/resource/*.html
 
       - name: node index.js
         run: |
