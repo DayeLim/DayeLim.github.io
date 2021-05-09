@@ -21,7 +21,6 @@ var data = request(addr, function (error, response, body) {
             if(!err && res.statusCode == 200) {
                 var harpData = JSON.parse(bo);
             }
-            console.log(harpData);
         });
         harp_data
             .pipe(fs.createWriteStream(harpnum_dir_head+jsonData.keywords[0].values[j]+harpnum_dir_foot));    
