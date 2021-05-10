@@ -10,7 +10,7 @@ request.open('GET', mharp, true);
 request.onload = function () {
     var jsonData = JSON.parse(request.responseText);
 
-    for ( var j = 0; j < jsonData.count; j++) {
+    for(var j = 0; j < jsonData.count; j++) {
         var harp_addr = harp_addr_head+jsonData.keywords[0].values[j]+harp_addr_foot;
 
         console.log(harp_addr);

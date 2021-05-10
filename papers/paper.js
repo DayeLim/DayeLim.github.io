@@ -5,84 +5,76 @@ var papers = create2DArray(13, 6);
 // DOI
 // pdf
 // 상대 경로는 오픈, 절대 경로는 다운로드
+papers[13] = ["Visual Explanation of a Deep Learning Solar Flare Forecast Model and Its Relationship to Physical Parameters",
+             "2021",
+             "Astrophysical Journal, 910, 8",
+             "Kangwoo Yi, Yong-Jae Moon, Daye Lim, Eunsu Park, and Harim Lee",
+             "10.3847/1538-4357/abdebe"]
 papers[12] = ["Super-resolution of SDO/HMI magnetograms using novel deep learning methods",
              "2020",
              "Astrophysical Journal Letters, 897, L32",
              "Sumiaya Rahman, Yong-Jae Moon, Eunsu Park, Ashraf Siddique, Il-Hyun Cho, and Daye Lim",
-             "10.3847/2041-8213/ab9d79",
-             "/papers/Rahman_2020_ApJL_Super-resolutionOfHMIMagnetogramsUsingNovelDeepLearningMethods.pdf"]
+             "10.3847/2041-8213/ab9d79"]
 papers[11] = ["Higher radial harmonics of sausage oscillations in coronal loops",
              "2020",
              "Astrophysical Journal, 893, 62",
              "Daye Lim, Valery M. Nakariakov, Dae Jung Yu, Il-Hyun Cho, and Yong-Jae Moon",
-             "10.3847/1538-4357/ab7d3d",
-             "/papers/Lim_2020_ApJ_HigherRadialHarmonicsOfSausageOscillationsInCoronalLoops.pdf"]
+             "10.3847/1538-4357/ab7d3d"]
 papers[10] = ["De-noising SDO/HMI solar magnetograms by image translation method based on deep learning",
              "2020",
              "Astrophysical Journal Letters, 891, L4",
              "Eunsu Park, Yong-Jae Moon, Daye Lim, and Harim Lee",
-             "10.3847/2041-8213/ab74d2",
-             "/papers/Park_2020_ApJL_De-noisingHMISolarMagnetogramsByImageTranslationMethodBasedOnDeepLearning.pdf"]
+             "10.3847/2041-8213/ab74d2"]
 papers[9] = ["Forecast of major solar x-ray flare flux profiles using novel deep learning models",
              "2020",
              "Astrophysical Journal Letters, 890, L5",
              "Kangwoo Yi, Yong-Jae Moon, Gyungin Shin, and Daye Lim",
-             "10.3847/2041-8213/ab701b",
-             "/papers/Yi_2020_ApJL_ForecastOfMajorSolarX-rayFlareFluxProfilesUsingNovelDeepLearningModels.pdf"]
+             "10.3847/2041-8213/ab701b"]
 papers[8] = ["Ensemble forecasting of major solar flares with short-, mid-, and long-term active region properties",
              "2019",
              "Astrophysical Journal, 885, 35",
              "Daye Lim, Yong-Jae Moon, Jongyeob Park, Eunsu Park, Kangjin Lee, Jin-Yi Lee, and Soojeong Jang",
-             "10.3847/1538-4357/ab45e7",
-             "/papers/Lim_2019_ApJ_EnsembleForecastingOfMajorSolarFlares.pdf"]
+             "10.3847/1538-4357/ab45e7"]
 papers[7] = ["Generation of solar UV and EUV images from SDO/HMI magnetograms by deep learning",
              "2019",
              "Astrophysical Journal Letters, 884, L23",
              "Eunsu Park, Yong-Jae Moon, Jin-Yi Lee, Harim Lee, Daye Lim, Gyungin Shin, and Taeyoung Kim",
-             "10.3847/2041-8213/ab46bb",
-             "/papers/Park_2019_ApJL_GenerationOfSolarUVAndEUVImagesFromHMIMagnetogramsByDeepLearning.pdf"]
+             "10.3847/2041-8213/ab46bb"]
 papers[6] = ["Forecast of daily major flare probability using relationships between vector magnetic properties and flaring rates",
              "2019",
              "Journal of the Korean Astronomical Society, 52, 133",
              "Daye Lim, Yong-Jae Moon, Jongyeob Park, Eunsu Park, Kangjin Lee, Jin-Yi Lee, and Soojeong Jang",
-             " ",
-             "/papers/Lim_2019_JKAS_FlareForecast.pdf"]
+             " "]
 papers[5] = ["Solar farside magnetograms from deep learning analysis of STEREO/EUVI data",
              "2019",
              "Nature Astronomy, 3, 397",
              "Taeyoung Kim, Eunsu Park, Harim Lee, Yong-Jae Moon, Sung-Ho Bae, Daye Lim, Soojeong Jang, Lokwon Kim, Il-Hyun Cho, Myungjin Choi, and Kyung-Suk Cho",
-             "10.1038/s41550-019-0711-5",
-             "/papers/KimParkLee_2019_NatAs_SolarFarsideMagnetogramsFromDeepLearningAnalysisOfEUVIData.pdf"]
+             "10.1038/s41550-019-0711-5"]
 papers[4] = ["Application of the deep convolutional neural network to the forecast of solar flare occurrence using full-disk solar magnetograms",
              "2018",
              "Astrophysical Journal, 869, 91",
              "Eunsu Park, Yong-Jae Moon, Seulki Shin, Kangwoo Yi, Daye Lim, Harim Lee, and Gyungin Shin",
-             "10.3847/1538-4357/aaed40",
-             "/papers/Park_2018_ApJ_ApplicationOfTheDeepCNNToTheForecastOfSolarFlareOccurrenceUsingFull-diskSolarMagnetograms.pdf"]
+             "10.3847/1538-4357/aaed40"]
 papers[3] = ["Sausage oscillations in a plasma cylinder with a surface current",
              "2018",
              "Journal of Atmospheric Solar-Terrestrial Physics, 175, 49",
              "Daye Lim, Valery M. Nakariakov, and Yong-Jae Moon",
-             "10.1016/j.jastp.2018.04.013",
-             "/papers/Lim_2018_JASTP_SausageOscillationsInAPlasmaCylinderWithASurfaceCurrent.pdf"]
+             "10.1016/j.jastp.2018.04.013"]
 papers[2] = ["Coronal thick target hard X-ray emissions and radio emissions",
               "2013",
               "Astrophysical Journal Letters, 769, L11",
               "Jeongwoo Lee, Daye Lim, G. S. Choe, Kap-Sung Kim, and Minhwan Jang",
-              "10.1088/2041-8205/769/1/L11",
-              "/papers/Lee_2013_ApJ_CoronalThickTargetHXRAndRadioEmissions.pdf"]
+              "10.1088/2041-8205/769/1/L11"]
 papers[1] = ["Loss cone-driven cyclotron maser instability",
               "2013",
               "Journal of Geophysical Research, 118, 7035",
               "Sang-Yun Lee, Sibaek Yi, Dayeh Lim, Hee-Eun Kim, Jungjoon Seough, and Peter H. Yoon",
-              "10.1002/2013JA019298",
-              "/main/papers/Lee_2013_JGR_CyclotronMaserInstability.pdf"]
+              "10.1002/2013JA019298"]
 papers[0] = ["Z-mode maser instability",
               "2013",
               "Journal of Geophysical Research, 118, 7584",
               "Sibaek Yi, Sang-Yun Lee, Hee-Eun Kim, Dayeh Lim, Jungjoon Seough, P. H. Yoon, M. C. Broughton, and J. LaBelle",
-              "10.1002/2013JA019376",
-              "/main/papers/Yi_2013_JGR_Z-modeMaserInstability.pdf"]
+              "10.1002/2013JA019376"]
 
 window.onload = function() {
     var name = document.getElementById('name');
@@ -182,11 +174,11 @@ window.onload = function() {
 
         paper[i].appendChild(div_paperDOI);
 
-        var a_paperlink = document.createElement('a');
-        a_paperlink.className = 'paperlink';
-        a_paperlink.target = '_blank';
-        a_paperlink.href = papers[i][5];
-        a_paperlink.innerHTML = '[pdf]';
+        // var a_paperlink = document.createElement('a');
+        // a_paperlink.className = 'paperlink';
+        // a_paperlink.target = '_blank';
+        // a_paperlink.href = papers[i][5];
+        // a_paperlink.innerHTML = '[pdf]';
 
         paper[i].appendChild(a_paperlink);
     }
