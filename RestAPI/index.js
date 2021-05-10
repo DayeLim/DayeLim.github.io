@@ -16,7 +16,7 @@ var data = request(addr, function (error, response, body) {
     }
         
     for ( var j = 0; j < jsonData.count; j++) {
-        harp_addr = harp_addr_head+jsonData.keywords[0].values[j]+harp_addr_foot+keys;
+        var harp_addr = harp_addr_head+jsonData.keywords[0].values[j]+harp_addr_foot+keys;
         var harp_data = request(harp_addr, function (err, res, bo) {
             if(!err && res.statusCode == 200) {
                 var harpData = JSON.parse(bo);
