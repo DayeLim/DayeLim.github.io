@@ -1,4 +1,4 @@
-name: dataviewer
+name: Major Solar Flare Forecast Board
 
 on:
   schedule:
