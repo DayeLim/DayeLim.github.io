@@ -17,9 +17,9 @@ button:hover {
 }
 div.menus {
     width: 80rem;
-    margin-bottom: 0.1rem;
+    margin-bottom: 1rem;
     border: 0.1rem solid;
-    padding: 0.1rem 0.1rem;
+    padding: 1rem 1rem;
     background-color: white;
 }
 div.info_1, .info_2 {
