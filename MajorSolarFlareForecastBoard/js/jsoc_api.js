@@ -1,5 +1,5 @@
 const request = new XMLHttpRequest();
-const resourUrl = 'https://Dayelim.github.io/dataviewer/resource/';
+const resourUrl = 'https://Dayelim.github.io/MajorSolarFlareForecastBoard/resource/';
 const mharp = resourUrl + 'hmi_mharp_720s_nrt.html';
 var harp_addr_head = resourUrl + 'hmi_sharp_720s_nrt[';
 var harp_addr_foot = '].html';
@@ -8,12 +8,18 @@ var keys = 'T_REC,HARPNUM,USFLUX,TOTUSJH,TOTUSJZ,TOTPOT,ABSNJZH,SAVNCPP';
 
 request.open('GET', mharp, true);
 request.onload = function () {
-    var jsonData = JSON.parse(request.responseText);
+    var jsonMharp = JSON.parse(request.responseText);
 
-    for(var j = 0; j < jsonData.count; j++) {
-        var harp_addr = harp_addr_head+jsonData.keywords[0].values[j]+harp_addr_foot;
-
+    for(var j = 0; j < jsonMharp.count; j++) {
+        var harp_addr = harp_addr_head+jsonMharp.keywords[0].values[j]+harp_addr_foot;
         console.log(harp_addr);
+        request.open('GET', harp_addr, false);
+        request.onload = function () {
+            var jsonHarp = JSON.parse(request.responseText);
+            console.log(jsonHarp);
+        };
+        request.send();
+        // console.log(harp_addr);
     }
 };
 request.send();
