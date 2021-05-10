@@ -180,7 +180,7 @@ window.onload = function() {
         // a_paperlink.href = papers[i][5];
         // a_paperlink.innerHTML = '[pdf]';
 
-        paper[i].appendChild(a_paperlink);
+        // paper[i].appendChild(a_paperlink);
     }
 
     var div_linkpaperDOI = document.getElementsByClassName('div_paperDOI');
