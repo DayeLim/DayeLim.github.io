@@ -1,12 +1,12 @@
 name: Major Solar Flare Forecast Board
 
-on:
-  schedule:
-  - cron: "*/24 * * * *"
-
 # on:
-#   push:
-#     branches: [ master ]
+#   schedule:
+#   - cron: "*/24 * * * *"
+
+on:
+  push:
+    branches: [ master ]
 
 jobs:
   build:
