@@ -16,10 +16,11 @@ request.open('GET', mharp, true);
 request.onload = function () {
     addLoadEvent(function() {
         var jsonMharp = JSON.parse(request.responseText);
-        console.log(jsonMharp);
+        // console.log(jsonMharp);
         for(var j = 0; j < jsonMharp.count; j++) {
-            var harp_addr = harp_addr_head+jsonMharp.keywords[0].values[j]+harp_addr_foot;
+            var harp_addr = harp_addr_head+jsonMharp.keywords[1].values[j]+harp_addr_foot;
             // console.log(harp_addr);
+            // console.log(Object.keys(jsonMharp.keywords).length);
 
                 request.open('GET', harp_addr, false);
                 request.onload = function () {
@@ -31,33 +32,24 @@ request.onload = function () {
                     tr_value.className = 'tr';
 
                     tbody.appendChild(tr_value);
-                
-                    var td_Date = document.createElement('td');
-                    td_Date.innerHTML = jsonMharp.keywords[2].values[j];
-                    tr_value.appendChild(td_Date);
-                    var td_Date = document.createElement('td');
-                    td_Date.innerHTML = jsonMharp.keywords[0].values[j];
-                    tr_value.appendChild(td_Date);
-                    var td_Date = document.createElement('td');                    
-                    td_Date.innerHTML = jsonMharp.keywords[1].values[j];
-                    tr_value.appendChild(td_Date);
-                    var td_USFLUX = document.createElement('td');
-                    td_USFLUX.innerHTML = jsonHarp.keywords[2].values[jsonHarp.keywords[2].values.length-1];
-                    
-                    var td_USFLUX_P = document.createElement('td');
-                    td_USFLUX_P.innerHTML = '100';
-                    
-                    var td_TOTUSSJH = document.createElement('td');
-                    td_TOTUSSJH.innerHTML = jsonHarp.keywords[3].values[jsonHarp.keywords[3].values.length-1];
-                                                    
-                    // tr_value.appendChild(td_Date);
-                    // tr_value.appendChild(td_Harp);
-                    // tr_value.appendChild(td_NOAA);
-                    // tr_value.appendChild(td_USFLUX);
-                    // tr_value.appendChild(td_USFLUX_P);
-                    // tr_value.appendChild(td_TOTUSSJH);
-                            
-                    console.log(j, jsonHarp);
+
+                    for(var i = 0; i < Object.keys(jsonMharp.keywords).length; i++) {
+                        var td = document.createElement('td');
+                        td.innerHTML = jsonMharp.keywords[i].values[j];
+                        tr_value.appendChild(td);
+                    }
+
+                    for(var i = 0; i < Object.keys(jsonHarp.keywords).length - 2; i++) {
+                        var td = document.createElement('td');
+                        td.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
+                        tr_value.appendChild(td);
+
+                        var td_p = document.createElement('td');
+                        td_p.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
+                        tr_value.appendChild(td_p);
+                    }
+
+                    // console.log(j, jsonHarp);
                 };
                 request.send();
 
