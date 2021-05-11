@@ -52,7 +52,8 @@ jobs:
           git config user.email github-actions@github.com
           git add .
           git commit -m "generated"          
-          git push -u origin +master
+          git pull
+          git push
 
       # - name: git config
       #   env:
