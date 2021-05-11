@@ -79,16 +79,16 @@ div.box {
 .paper div {
     margin-bottom: 0.2rem;
 }
-.div_papertitle{
+.div_papertitle {
     font-size: 1.4rem;
 }
-.div_paperyear{
+.div_paperyear {
     font-size: 1.4rem;
 }
-.div_paperjournal{
+.div_paperjournal {
     font-size: 1.4rem;
 }
-.div_papernames{
+.div_papernames {
     font-size: 1.4rem;
 }
 .div_paperDOI{
@@ -97,9 +97,11 @@ div.box {
 .paperlink {
     font-size: 1.4rem;
 }
-.a_linkpaperDOI, .paperlink, .linkorcid{
+.a_linkpaperDOI, .paperlink, .linkorcid {
     color: rgb(92, 19, 151);
 }
 .a_linkpaperDOI:hover, .paperlink:hover, .linkorcid:hover {
     color:  red;
+}
+.table {
 }

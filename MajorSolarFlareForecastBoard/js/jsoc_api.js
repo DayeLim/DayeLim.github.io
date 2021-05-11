@@ -7,31 +7,77 @@ var harp_addr_foot = '].html';
 
 var keys = 'T_REC,HARPNUM,USFLUX,TOTUSJH,TOTUSJZ,TOTPOT,ABSNJZH,SAVNCPP';
 
-window.onload = function() {
+addLoadEvent(function() {
     var name = document.getElementById('name');
     name.innerHTML = title;
-};
+});
 
 request.open('GET', mharp, true);
 request.onload = function () {
-    var jsonMharp = JSON.parse(request.responseText);
+    addLoadEvent(function() {
+        var jsonMharp = JSON.parse(request.responseText);
+        console.log(jsonMharp);
+        for(var j = 0; j < jsonMharp.count; j++) {
+            var harp_addr = harp_addr_head+jsonMharp.keywords[0].values[j]+harp_addr_foot;
+            // console.log(harp_addr);
 
-    for(var j = 0; j < jsonMharp.count; j++) {
-        var harp_addr = harp_addr_head+jsonMharp.keywords[0].values[j]+harp_addr_foot;
-        console.log(harp_addr);
-        request.open('GET', harp_addr, false);
-        request.onload = function () {
-            var jsonHarp = JSON.parse(request.responseText);
+                request.open('GET', harp_addr, false);
+                request.onload = function () {
+                    var jsonHarp = JSON.parse(request.responseText);
 
-            console.log(jsonHarp);
-        };
-        request.send();
-        // console.log(harp_addr);
-    }
+                    var tbody = document.getElementsByClassName('tbody')[0];
+
+                    var tr_value = document.createElement('tr');
+                    tr_value.className = 'tr';
+
+                    tbody.appendChild(tr_value);
+                
+                    var td_Date = document.createElement('td');
+                    td_Date.innerHTML = jsonMharp.keywords[2].values[j];
+                    tr_value.appendChild(td_Date);
+                    var td_Date = document.createElement('td');
+                    td_Date.innerHTML = jsonMharp.keywords[0].values[j];
+                    tr_value.appendChild(td_Date);
+                    var td_Date = document.createElement('td');                    
+                    td_Date.innerHTML = jsonMharp.keywords[1].values[j];
+                    tr_value.appendChild(td_Date);
+                    var td_USFLUX = document.createElement('td');
+                    td_USFLUX.innerHTML = jsonHarp.keywords[2].values[jsonHarp.keywords[2].values.length-1];
+                    
+                    var td_USFLUX_P = document.createElement('td');
+                    td_USFLUX_P.innerHTML = '100';
+                    
+                    var td_TOTUSSJH = document.createElement('td');
+                    td_TOTUSSJH.innerHTML = jsonHarp.keywords[3].values[jsonHarp.keywords[3].values.length-1];
+                                                    
+                    // tr_value.appendChild(td_Date);
+                    // tr_value.appendChild(td_Harp);
+                    // tr_value.appendChild(td_NOAA);
+                    // tr_value.appendChild(td_USFLUX);
+                    // tr_value.appendChild(td_USFLUX_P);
+                    // tr_value.appendChild(td_TOTUSSJH);
+                            
+                    console.log(j, jsonHarp);
+                };
+                request.send();
+
+            // console.log(harp_addr);
+        }
+    });
 };
 request.send();
 
-
+function addLoadEvent(func) {
+    var oldonload = window.onload;
+    if(typeof window.onload != 'function') {
+        window.onload = func;
+    } else {
+        window.onload = function() {
+            oldonload();
+            func();
+        }
+    }
+}
 
 
 // fetch('http://jsoc.stanford.edu/cgi-bin/ajax/jsoc_info?ds=hmi.mharp_720s_nrt[][$]&op=rs_list&key=HARPNUM,NOAA_ARS,T_REC')

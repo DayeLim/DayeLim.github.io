@@ -1,7 +1,7 @@
 var request = require('request');
 var fs = require('fs');
 
-var addr = 'http://jsoc.stanford.edu/cgi-bin/ajax/jsoc_info?ds=hmi.mharp_720s_nrt[][$]&op=rs_list&key=HARPNUM,NOAA_ARS,T_REC';
+var addr = 'http://jsoc.stanford.edu/cgi-bin/ajax/jsoc_info?ds=hmi.mharp_720s_nrt[][$]&op=rs_list&key=T_REC,HARPNUM,NOAA_ARS';
 var harp_addr_head = 'http://jsoc.stanford.edu/cgi-bin/ajax/jsoc_info?ds=hmi.sharp_720s_nrt[';
 var harp_addr_foot = '][]&op=rs_list&key=';
 var mharp_dir = '../MajorSolarFlareForecastBoard/resource/hmi_mharp_720s_nrt.html';
@@ -16,14 +16,14 @@ var data = request(addr, function (error, response, body) {
     }
         
     for(var j = 0; j < jsonData.count; j++) {
-        var harp_addr = harp_addr_head+jsonData.keywords[0].values[j]+harp_addr_foot+keys;
+        var harp_addr = harp_addr_head+jsonData.keywords[1].values[j]+harp_addr_foot+keys;
         var harp_data = request(harp_addr, function (err, res, bo) {
             if(!err && res.statusCode == 200) {
                 var harpData = JSON.parse(bo);
             }
         });
         harp_data
-            .pipe(fs.createWriteStream(harpnum_dir_head+jsonData.keywords[0].values[j]+harpnum_dir_foot));    
+            .pipe(fs.createWriteStream(harpnum_dir_head+jsonData.keywords[1].values[j]+harpnum_dir_foot));    
     }   
 });
 data
