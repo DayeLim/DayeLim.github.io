@@ -16,7 +16,7 @@ request.open('GET', mharp, true);
 request.onload = function () {
     addLoadEvent(function() {
         var jsonMharp = JSON.parse(request.responseText);
-        // console.log(jsonMharp);
+        console.log(jsonMharp);
         for(var j = 0; j < jsonMharp.count; j++) {
             var harp_addr = harp_addr_head+jsonMharp.keywords[1].values[j]+harp_addr_foot;
             // console.log(harp_addr);
