@@ -47,7 +47,7 @@ function againRequest(harp_addr) {
         return false;
     }
     httpRequest1.onreadystatechange = againContents;
-    httpRequest1.open('GET', harp_addr, true);
+    httpRequest1.open('GET', harp_addr, false);
     httpRequest1.send();
 }
 
@@ -56,7 +56,14 @@ function againContents() {
         if(httpRequest1.readyState === XMLHttpRequest.DONE) {
             if(httpRequest1.status === 200) {
                 var jsonHarp = JSON.parse(httpRequest1.responseText);
-                console.log(jsonHarp);
+
+                var tbody = document.getElementsByClassName('tbody')[0];
+                var tr_value = document.createElement('tr');
+                tr_value.className = 'tr';
+
+                tbody.appendChild(tr_value);
+                
+                console.log(tbody);
             } else {
                 alert("problem");
             }
