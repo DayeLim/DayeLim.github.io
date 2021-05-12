@@ -13,17 +13,17 @@ addLoadEvent(function() {
 });
 
 request.open('GET', mharp, true);
-request.onload = function () {
-    addLoadEvent(function() {
+addLoadEvent_http(function () {
+    addLoadEvent(function () {
         var jsonMharp = JSON.parse(request.responseText);
         // console.log(jsonMharp);
         for(var j = 0; j < jsonMharp.count; j++) {
             var harp_addr = harp_addr_head+jsonMharp.keywords[1].values[j]+harp_addr_foot;
             // console.log(harp_addr);
             // console.log(Object.keys(jsonMharp.keywords).length);
-
                 request.open('GET', harp_addr, false);
-                request.onload = function () {
+                addLoadEvent_http(function () {
+                    console.log(j);
                     var jsonHarp = JSON.parse(request.responseText);
 
                     var tbody = document.getElementsByClassName('tbody')[0];
@@ -50,13 +50,13 @@ request.onload = function () {
                     }
 
                     // console.log(j, jsonHarp);
-                };
+                });
                 request.send();
 
             // console.log(harp_addr);
         }
     });
-};
+});
 request.send();
 
 function addLoadEvent(func) {
@@ -65,6 +65,18 @@ function addLoadEvent(func) {
         window.onload = func;
     } else {
         window.onload = function() {
+            oldonload();
+            func();
+        }
+    }
+}
+
+function addLoadEvent_http(func) {
+    var oldonload = request.onload;
+    if(typeof request.onload != 'function') {
+        request.onload = func;
+    } else {
+        request.onload = function() {
             oldonload();
             func();
         }
