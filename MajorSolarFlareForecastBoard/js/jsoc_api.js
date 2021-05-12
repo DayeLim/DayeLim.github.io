@@ -72,7 +72,6 @@ function againContents() {
             if(httpRequest1.status === 200) {
                 var jsonHarp = JSON.parse(httpRequest1.responseText);
 
-                console.log(j);
                 var tr_value = document.getElementsByClassName('tr')[j];
 
                 for(var i = 0; i < Object.keys(jsonHarp.keywords).length - 2; i++) {
