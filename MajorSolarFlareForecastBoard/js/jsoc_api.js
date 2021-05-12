@@ -3,6 +3,7 @@ const resourUrl = '../MajorSolarFlareForecastBoard/resource/';
 const mharp = resourUrl + 'hmi_mharp_720s_nrt.html';
 var harp_addr_head = resourUrl + 'hmi_sharp_720s_nrt[';
 var harp_addr_foot = '].html';
+var jsonMharp = null;
 
 var keys = 'T_REC,HARPNUM,USFLUX,TOTUSJH,TOTUSJZ,TOTPOT,ABSNJZH,SAVNCPP';
 
@@ -27,8 +28,21 @@ function alertContents() {
     try {
         if(httpRequest.readyState === XMLHttpRequest.DONE) {
             if(httpRequest.status === 200) {
-                var jsonMharp = JSON.parse(httpRequest.responseText);
+                jsonMharp = JSON.parse(httpRequest.responseText);
+
                 for(var j = 0; j < jsonMharp.count; j++) {
+                    var tbody = document.getElementsByClassName('tbody')[0];
+
+                    var tr_value = document.createElement('tr');
+                    tr_value.className = 'tr';
+    
+                    tbody.appendChild(tr_value);
+    
+                    for(var i = 0; i < Object.keys(jsonMharp.keywords).length; i++) {
+                        var td = document.createElement('td');
+                        td.innerHTML = jsonMharp.keywords[i].values[j];
+                        tr_value.appendChild(td);
+                    }
                     var harp_addr = harp_addr_head+jsonMharp.keywords[1].values[j]+harp_addr_foot;
                     againRequest(harp_addr);
                 }
@@ -56,23 +70,39 @@ function againContents() {
         if(httpRequest1.readyState === XMLHttpRequest.DONE) {
             if(httpRequest1.status === 200) {
                 var jsonHarp = JSON.parse(httpRequest1.responseText);
+                var jsonMharp = JSON.parse(httpRequest.responseText);
 
+                console.log(jsonMharp);
                 var tbody = document.getElementsByClassName('tbody')[0];
+
                 var tr_value = document.createElement('tr');
                 tr_value.className = 'tr';
 
-                tbody.appendChild(tr_value);
+
+                // for(var i = 0; i < Object.keys(jsonMharp.keywords).length; i++) {
+                //     var td = document.createElement('td');
+                //     td.innerHTML = jsonMharp.keywords[i].values[2];
+                //     tr_value.appendChild(td);
+                // }
                 
-                console.log(tbody);
+                // for(var i = 0; i < Object.keys(jsonHarp.keywords).length - 2; i++) {
+                //     var td = document.createElement('td');
+                //     td.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
+                //     tr_value.appendChild(td);
+
+                //     var td_p = document.createElement('td');
+                //     td_p.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
+                //     tr_value.appendChild(td_p);
+                // }
+
             } else {
                 alert("problem");
             }
         }
     } catch(e) {
-        console.log('Caught Exception: ' + e.description);
+        console.log('Again Caught Exception: ' + e.description);
     }
 }
-
 
 // request.open('POST', mharp, true);
 // addLoadEvent_http(function () {
