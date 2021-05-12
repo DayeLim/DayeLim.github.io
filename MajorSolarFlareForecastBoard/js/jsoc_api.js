@@ -12,7 +12,7 @@ addLoadEvent(function() {
     name.innerHTML = title;
 });
 
-request.open('GET', mharp, true);
+request.open('POST', mharp, true);
 addLoadEvent_http(function () {
     addLoadEvent(function () {
         var jsonMharp = JSON.parse(request.responseText);
@@ -21,7 +21,7 @@ addLoadEvent_http(function () {
             var harp_addr = harp_addr_head+jsonMharp.keywords[1].values[j]+harp_addr_foot;
             // console.log(harp_addr);
             // console.log(Object.keys(jsonMharp.keywords).length);
-                request.open('GET', harp_addr, false);
+                request.open('POST', harp_addr, false);
                 addLoadEvent_http(function () {
                     console.log(j);
                     var jsonHarp = JSON.parse(request.responseText);
