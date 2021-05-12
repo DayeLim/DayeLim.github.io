@@ -4,6 +4,7 @@ const mharp = resourUrl + 'hmi_mharp_720s_nrt.html';
 var harp_addr_head = resourUrl + 'hmi_sharp_720s_nrt[';
 var harp_addr_foot = '].html';
 var jsonMharp = null;
+var j = 0;
 
 var keys = 'T_REC,HARPNUM,USFLUX,TOTUSJH,TOTUSJZ,TOTPOT,ABSNJZH,SAVNCPP';
 
@@ -30,7 +31,7 @@ function alertContents() {
             if(httpRequest.status === 200) {
                 jsonMharp = JSON.parse(httpRequest.responseText);
 
-                for(var j = 0; j < jsonMharp.count; j++) {
+                for(j = 0; j < jsonMharp.count; j++) {
                     var tbody = document.getElementsByClassName('tbody')[0];
 
                     var tr_value = document.createElement('tr');
@@ -55,7 +56,7 @@ function alertContents() {
     }    
 }
 
-function againRequest(harp_addr) {
+function againRequest(harp_addr, j) {
     httpRequest1 = new XMLHttpRequest();
     if(!httpRequest1) {
         return false;
@@ -70,30 +71,20 @@ function againContents() {
         if(httpRequest1.readyState === XMLHttpRequest.DONE) {
             if(httpRequest1.status === 200) {
                 var jsonHarp = JSON.parse(httpRequest1.responseText);
-                var jsonMharp = JSON.parse(httpRequest.responseText);
 
-                console.log(jsonMharp);
-                var tbody = document.getElementsByClassName('tbody')[0];
+                console.log(j);
+                var tr_value = document.getElementsByClassName('tr')[j];
 
-                var tr_value = document.createElement('tr');
-                tr_value.className = 'tr';
+                for(var i = 0; i < Object.keys(jsonHarp.keywords).length - 2; i++) {
 
+                    var td = document.createElement('td');
+                    td.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
+                    tr_value.appendChild(td);
 
-                // for(var i = 0; i < Object.keys(jsonMharp.keywords).length; i++) {
-                //     var td = document.createElement('td');
-                //     td.innerHTML = jsonMharp.keywords[i].values[2];
-                //     tr_value.appendChild(td);
-                // }
-                
-                // for(var i = 0; i < Object.keys(jsonHarp.keywords).length - 2; i++) {
-                //     var td = document.createElement('td');
-                //     td.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
-                //     tr_value.appendChild(td);
-
-                //     var td_p = document.createElement('td');
-                //     td_p.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
-                //     tr_value.appendChild(td_p);
-                // }
+                    var td_p = document.createElement('td');
+                    td_p.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
+                    tr_value.appendChild(td_p);
+                }
 
             } else {
                 alert("problem");
