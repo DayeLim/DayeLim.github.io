@@ -15,7 +15,6 @@ makeRequest();
 
 function makeRequest() {
     httpRequest = new XMLHttpRequest();
-
     if(!httpRequest) {
         return false;
     }
@@ -29,9 +28,10 @@ function alertContents() {
         if(httpRequest.readyState === XMLHttpRequest.DONE) {
             if(httpRequest.status === 200) {
                 var jsonMharp = JSON.parse(httpRequest.responseText);
-                var j = 0;
-                var harp_addr = harp_addr_head+jsonMharp.keywords[1].values[j]+harp_addr_foot;
-                console.log(harp_addr);
+                for(var j = 0; j < jsonMharp.count; j++) {
+                    var harp_addr = harp_addr_head+jsonMharp.keywords[1].values[j]+harp_addr_foot;
+                    againRequest(harp_addr);
+                }
             } else {
                 alert("problem");
             }
@@ -40,6 +40,33 @@ function alertContents() {
         console.log('Caught Exception: ' + e.description);
     }    
 }
+
+function againRequest(harp_addr) {
+    httpRequest1 = new XMLHttpRequest();
+    if(!httpRequest1) {
+        return false;
+    }
+    httpRequest1.onreadystatechange = againContents;
+    httpRequest1.open('GET', harp_addr, true);
+    httpRequest1.send();
+}
+
+function againContents() {
+    try {
+        if(httpRequest1.readyState === XMLHttpRequest.DONE) {
+            if(httpRequest1.status === 200) {
+                var jsonHarp = JSON.parse(httpRequest1.responseText);
+                console.log(jsonHarp);
+            } else {
+                alert("problem");
+            }
+        }
+    } catch(e) {
+        console.log('Caught Exception: ' + e.description);
+    }
+}
+
+
 // request.open('POST', mharp, true);
 // addLoadEvent_http(function () {
 //     addLoadEvent(function () {
