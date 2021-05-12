@@ -20,12 +20,12 @@ function makeRequest() {
     if(!httpRequest) {
         return false;
     }
-    httpRequest.onreadystatechange = alertContents;
+    httpRequest.onreadystatechange = firstContents;
     httpRequest.open('GET', mharp, true);
     httpRequest.send();
 }
 
-function alertContents() {
+function firstContents() {
     try {
         if(httpRequest.readyState === XMLHttpRequest.DONE) {
             if(httpRequest.status === 200) {
@@ -48,7 +48,7 @@ function alertContents() {
                     againRequest(harp_addr);
                 }
             } else {
-                alert("problem");
+                console.log("problem");
             }
         }
     } catch(e) {
@@ -56,7 +56,7 @@ function alertContents() {
     }    
 }
 
-function againRequest(harp_addr, j) {
+function againRequest(harp_addr) {
     httpRequest1 = new XMLHttpRequest();
     if(!httpRequest1) {
         return false;
@@ -86,11 +86,23 @@ function againContents() {
                 }
 
             } else {
-                alert("problem");
+                console.log("problem");
             }
         }
     } catch(e) {
         console.log('Again Caught Exception: ' + e.description);
+    }
+}
+
+function addLoadEvent(func) {
+    var oldonload = window.onload;
+    if(typeof window.onload != 'function') {
+        window.onload = func;
+    } else {
+        window.onload = function() {
+            oldonload();
+            func();
+        }
     }
 }
 
@@ -141,18 +153,6 @@ function againContents() {
 // });
 // request.send();
 
-function addLoadEvent(func) {
-    var oldonload = window.onload;
-    if(typeof window.onload != 'function') {
-        window.onload = func;
-    } else {
-        window.onload = function() {
-            oldonload();
-            func();
-        }
-    }
-}
-
 // function addLoadEvent_http(func) {
 //     var oldonload = request.onload;
 //     if(typeof request.onload != 'function') {
@@ -164,7 +164,6 @@ function addLoadEvent(func) {
 //         }
 //     }
 // }
-
 
 // fetch('http://jsoc.stanford.edu/cgi-bin/ajax/jsoc_info?ds=hmi.mharp_720s_nrt[][$]&op=rs_list&key=HARPNUM,NOAA_ARS,T_REC')
 //   .then(res => {
