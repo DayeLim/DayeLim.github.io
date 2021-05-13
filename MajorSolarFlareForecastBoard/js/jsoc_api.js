@@ -1,4 +1,4 @@
-const title = 'Major Solar Flare Forecast Board';
+const title = 'Major Solar Flare Probability Forecast Board';
 const resourUrl = '../MajorSolarFlareForecastBoard/resource/';
 const mharp = resourUrl + 'hmi_mharp_720s_nrt.html';
 var harp_addr_head = resourUrl + 'hmi_sharp_720s_nrt[';
@@ -79,6 +79,7 @@ function againContents() {
                 for(var i = 0; i < Object.keys(jsonHarp.keywords).length - 2; i++) {
 
                     var td = document.createElement('td');
+                    var fixed = 
                     td.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
                     tr_value.appendChild(td);
 
