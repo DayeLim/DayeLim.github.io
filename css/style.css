@@ -103,5 +103,14 @@ div.box {
 .a_linkpaperDOI:hover, .paperlink:hover, .linkorcid:hover {
     color:  red;
 }
-.table {
+
+
+table.table {
+    font-size: 2rem;
+    text-align: center;
+}
+
+th.update {
+    font-size: 1.5rem;
+    text-align: right;
 }
