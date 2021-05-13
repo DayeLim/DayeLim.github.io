@@ -8,7 +8,7 @@ var j = 0;
 var param_a = [1.61, 1.56, 1.11, 1.34, 1.16, 0.98];
 var param_b = [-6.34, -22.21, -27.25, -30.95, -16.0, -3.31];
 
-var keys = 'T_REC,HARPNUM,TOTUSJH,TOTUSJZ,TOTPOT,USFLUX,ABSNJZH,SAVNCPP';
+var keys = 'T_REC,HARPNUM,TOTUSJH,TOTUSJZ,TOTPOT,USFLUX,SAVNCPP,ABSNJZH';
 
 addLoadEvent(function() {
     var name = document.getElementById('name');
