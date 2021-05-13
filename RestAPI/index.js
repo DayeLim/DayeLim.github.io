@@ -8,7 +8,7 @@ var mharp_dir = '../MajorSolarFlareForecastBoard/resource/hmi_mharp_720s_nrt.htm
 var harpnum_dir_head = '../MajorSolarFlareForecastBoard/resource/hmi_sharp_720s_nrt[';
 var harpnum_dir_foot = '].html';
 
-var keys = 'T_REC,HARPNUM,TOTUSJH,TOTUSJZ,TOTPOT,USFLUX,SAVNCPP,ABSNJZH';
+var keys = 'T_REC,HARPNUM,TOTUSJH,TOTUSJZ,TOTPOT,USFLUX,ABSNJZH,SAVNCPP';
 
 var data = request(addr, function (error, response, body) {
     if(!error && response.statusCode == 200) {
