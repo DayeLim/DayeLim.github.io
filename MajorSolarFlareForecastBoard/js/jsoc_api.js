@@ -87,7 +87,7 @@ function againContents() {
                     var Power = param_a[i]*temp_log + param_b[i];
                     var temp_R = -1.*Math.pow(10, Power);
                     var temp_P = 1. - Math.exp(temp_R);
-                    var per_P = 100*temp_P;
+                    var per_P = (100*temp_P).toFixed(2);
                     var td_p = document.createElement('td');
                     td_p.innerHTML = per_P;
                     tr_value.appendChild(td_p);
