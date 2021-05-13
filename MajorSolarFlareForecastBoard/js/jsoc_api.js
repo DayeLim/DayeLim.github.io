@@ -79,8 +79,8 @@ function againContents() {
                 for(var i = 0; i < Object.keys(jsonHarp.keywords).length - 2; i++) {
 
                     var td = document.createElement('td');
-                    var fixed = 
-                    td.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
+                    var fixed = Number.parseFloat(1*jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1]).toExponential(2);
+                    td.innerHTML = fixed;
                     tr_value.appendChild(td);
 
                     var param = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
