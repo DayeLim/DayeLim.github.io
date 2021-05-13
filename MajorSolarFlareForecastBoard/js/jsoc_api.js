@@ -5,8 +5,10 @@ var harp_addr_head = resourUrl + 'hmi_sharp_720s_nrt[';
 var harp_addr_foot = '].html';
 var jsonMharp = null;
 var j = 0;
+var param_a = [1.61, 1.56, 1.11, 1.34, 1.16, 0.98];
+var param_b = [-6.34, -22.21, -27.25, -30.95, -16.0, -3.31];
 
-var keys = 'T_REC,HARPNUM,USFLUX,TOTUSJH,TOTUSJZ,TOTPOT,ABSNJZH,SAVNCPP';
+var keys = 'T_REC,HARPNUM,TOTUSJH,TOTUSJZ,TOTPOT,USFLUX,ABSNJZH,SAVNCPP';
 
 addLoadEvent(function() {
     var name = document.getElementById('name');
@@ -80,8 +82,13 @@ function againContents() {
                     td.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
                     tr_value.appendChild(td);
 
+                    var param = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
+                    var temp_log = Math.log(param)/Math.log(10);
+                    var Power = param_a[i]*temp_log + param_b[i];
+                    var temp_R = -1.*Math.pow(10, Power);
+                    var temp_P = 1. - Math.exp(temp_R);
                     var td_p = document.createElement('td');
-                    td_p.innerHTML = jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1];
+                    td_p.innerHTML = temp_P;
                     tr_value.appendChild(td_p);
                 }
 
