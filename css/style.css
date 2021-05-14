@@ -2,7 +2,6 @@
     font-family: "arial";
     color: rgb(71, 71, 71);
     margin: 0 auto;
-    white-space: nowrap;
 }
 body {
     font-size: 10px;
@@ -137,6 +136,7 @@ a.a_Footer {
 div.Footer {
     margin: 0 1rem;
     font-size: 2.5rem;
+    white-space: nowrap;
 }
 
 .contact {
