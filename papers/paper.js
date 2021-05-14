@@ -44,7 +44,7 @@ papers[6] = ["Forecast of daily major flare probability using relationships betw
              "2019",
              "Journal of the Korean Astronomical Society, 52, 133",
              "Daye Lim, Yong-Jae Moon, Jongyeob Park, Eunsu Park, Kangjin Lee, Jin-Yi Lee, and Soojeong Jang",
-             " "]
+             "10.5303/JKAS.2019.52.4.133"]
 papers[5] = ["Solar farside magnetograms from deep learning analysis of STEREO/EUVI data",
              "2019",
              "Nature Astronomy, 3, 397",
