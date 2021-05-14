@@ -108,6 +108,19 @@ div.box {
 table.table {
     font-size: 2rem;
     text-align: center;
+    padding: 1rem;
+    border-collapse: collapse;
+}
+
+th.inner {
+    background-color:rgb(172, 160, 182);
+    padding: 1rem;
+    border: 1px solid;
+}
+
+td.contents {
+    padding: 1rem;
+    border: 1px solid;
 }
 
 th.update {

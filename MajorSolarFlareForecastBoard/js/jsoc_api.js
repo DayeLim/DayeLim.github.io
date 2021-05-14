@@ -43,6 +43,7 @@ function firstContents() {
     
                     for(var i = 0; i < Object.keys(jsonMharp.keywords).length; i++) {
                         var td = document.createElement('td');
+                        td.className = 'contents';
                         td.innerHTML = jsonMharp.keywords[i].values[j];
                         tr_value.appendChild(td);
                     }
@@ -79,6 +80,7 @@ function againContents() {
                 for(var i = 0; i < Object.keys(jsonHarp.keywords).length - 2; i++) {
 
                     var td = document.createElement('td');
+                    td.className = 'contents';
                     var fixed = Number.parseFloat(1*jsonHarp.keywords[i+2].values[jsonHarp.keywords[i+2].values.length-1]).toExponential(2);
                     td.innerHTML = fixed;
                     tr_value.appendChild(td);
@@ -90,6 +92,7 @@ function againContents() {
                     var temp_P = 1. - Math.exp(temp_R);
                     var per_P = (100*temp_P).toFixed(2);
                     var td_p = document.createElement('td');
+                    td_p.className = 'contents';
                     td_p.innerHTML = per_P;
                     tr_value.appendChild(td_p);
                 }
