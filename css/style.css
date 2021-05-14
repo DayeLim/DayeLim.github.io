@@ -36,6 +36,7 @@ div.info_1, .info_2 {
     font-size: 3rem;
     padding: 1rem;    
     margin: 0 auto;
+    white-space: nowrap;
 }
 #Beauty {
     width: 5rem;
