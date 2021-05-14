@@ -98,10 +98,10 @@ div.box {
 .paperlink {
     font-size: 1.4rem;
 }
-.a_linkpaperDOI, .paperlink, .linkorcid {
+.a_linkpaperDOI, .paperlink, .linkorcid, .a_Footer {
     color: rgb(92, 19, 151);
 }
-.a_linkpaperDOI:hover, .paperlink:hover, .linkorcid:hover {
+.a_linkpaperDOI:hover, .paperlink:hover, .linkorcid:hover, .a_Footer:hover {
     color:  red;
 }
 
@@ -127,4 +127,21 @@ td.contents {
 th.update {
     font-size: 1.5rem;
     text-align: right;
+}
+
+a.a_Footer {
+    text-decoration: none;
+}
+
+div.Footer {
+    margin: 0 1rem;
+    font-size: 2.5rem;
+}
+
+.contact {
+    margin: 0 1rem;
+    font-size: 2.5rem;
+    position: fixed;
+    bottom: 1rem;
+    width: 100%;
 }
