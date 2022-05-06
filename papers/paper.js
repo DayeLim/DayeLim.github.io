@@ -107,6 +107,10 @@ window.onload = function() {
     email.id = "email";
     info_1[0].appendChild(email);
     email.innerHTML = "dalim@khu.ac.kr";
+    var email_01 = document.createElement('div');
+    email_01.id = "email_01";
+    info_1[0].appendChild(email_01);
+    email_01.innerHTML = "dalim@khu.ac.kr";
     var div_orcid = document.createElement('div');
     div_orcid.id = "orcid";
     info_1[0].appendChild(div_orcid);
