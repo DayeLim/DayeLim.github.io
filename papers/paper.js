@@ -10,12 +10,12 @@ papers[15] = ["Active region and flare ribbon properties associated with X-class
              "Astrophysics and Space Science, 367, 33",
              "P. Vijayalakshmi, A. Shanmugaraju, M. Bendict Lawrance, Yong-Jae Moon, Daye Lim, C. K. Balaji, and P. Hemalatha",
              "10.1007/s10509-022-04061-6"]
-papers[14] = ["Selection of Three (Extreme)Ultraviolet Channels for Solar Satellite Missions by Deep Learning",
+papers[14] = ["Selection of three (extreme)ultraviolet channels for solar satellite missions by deep learning",
              "2021",
              "Astrophysical Journal Letters, 915, L31",
              "Daye Lim, Yong-Jae Moon, Eunsu Park, and Jin-Yi Lee",
              "10.3847/2041-8213/ac0d54"]
-papers[13] = ["Visual Explanation of a Deep Learning Solar Flare Forecast Model and Its Relationship to Physical Parameters",
+papers[13] = ["Visual explanation of a deep learning solar flare forecast model and its relationship to physical parameters",
              "2021",
              "Astrophysical Journal, 910, 8",
              "Kangwoo Yi, Yong-Jae Moon, Daye Lim, Eunsu Park, and Harim Lee",
