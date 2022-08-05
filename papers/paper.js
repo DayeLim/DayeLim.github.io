@@ -117,7 +117,7 @@ window.onload = function() {
     var course = document.createElement('div');
     course.id = "course";
     info_1[0].appendChild(course);
-    course.innerHTML = "Post-doc, Centre for mathematical Plasma-Astrophysics, KU Leuven";
+    course.innerHTML = "Post-doc, Centre for mathematical Plasma-Astrophysics (CmPA), KU Leuven";
     var email = document.createElement('div');
     email.id = "email";
     info_1[0].appendChild(email);
