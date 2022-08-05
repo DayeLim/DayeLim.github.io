@@ -5,6 +5,11 @@ var papers = create2DArray(13, 6);
 // DOI
 // pdf
 // 상대 경로는 오픈, 절대 경로는 다운로드
+papers[16] = ["Slow Magnetoacoustic Oscillations in Stellar Coronal Loops",
+             "2022",
+             "Astrophysical Journal, 931, 63",
+             "Daye Lim, Valery M. Nakariakov, and Yong-Jae Moon",
+             "10.3847/1538-4357/ac69d8"]
 papers[15] = ["Active region and flare ribbon properties associated with X-class flares and CMEs of solar cycle 24",
              "2022",
              "Astrophysics and Space Science, 367, 33",
