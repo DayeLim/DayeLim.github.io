@@ -56,7 +56,7 @@ div.info_1, .info_2 {
     vertical-align: middle;
     padding: 0rem 0rem 0rem 0rem;
 }
-#course, #orcid, #email, #email_01, #interest {
+#course, #orcid, #email, #email_01, #email_02, #interest {
     font-weight: bold;
     color: black;
     font-size: 1.5rem;
