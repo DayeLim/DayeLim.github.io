@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = 'Daye Lim'
 theme = 'hermit'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
 [author]
   name = 'Daye Lim'
 
