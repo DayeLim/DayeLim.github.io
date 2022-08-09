@@ -1,0 +1,32 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Daye Lim'
+theme = 'hermit'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[author]
+  name = 'Daye Lim'
+
+[params]
+  homeSubtitle = "Post-doc, Centre for mathematical Plasma-Astrophysics (CmPA), KU Leuven"
+
+[menu]
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 10
+  
+  [[menu.main]]
+    name = "Publications"
+    url = "publications/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Major Solar Flare Probability Forecast Board"
+    url = "https://dayelim.github.io/MajorSolarFlareForecastBoard/MajorSolarFlareForecastBoard.html"
+    weight = 30
