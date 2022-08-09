@@ -1,0 +1,6 @@
+scripts/
+data/
+__pycache__/
+
+.*
+!.gitignore
