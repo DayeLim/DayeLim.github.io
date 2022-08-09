@@ -62,5 +62,5 @@ jobs:
         # below accordingly.
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.My }}
           publish_dir: ./public
