@@ -61,5 +61,5 @@ jobs:
         # also change the `main` in `refs/heads/main` 
         # below accordingly.
         with:
-          deploy_key: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
