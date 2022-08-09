@@ -1,0 +1,81 @@
+name: Major Solar Flare Forecast Board
+
+# on:
+#   schedule:
+#   - cron: "*/24 * * * *"
+
+# on:
+#   push:
+#     branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      # - name: environment
+      #   run: |
+      #     echo "export ENV=DEV" > ~/.bashrc
+      # - name: get_env
+      #   run: |
+      #     source ~/.bashrc
+      #     echo $ENV
+      # - name: set env vars
+      #   env:
+      #     foo: bar
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      # - name: git
+      #   run: git config --global url."https://${{ secrets.PAT }}@github.com/".insteadOf ssh://git@github.com/
+
+      # - name: pwd
+      #   run: |
+      #     pwd -
+
+      - name: delete files
+        run: |
+          rm MajorSolarFlareForecastBoard/resource/*.html
+
+      - name: node index.js
+        run: |
+          cd RestAPI
+          node index.js
+      
+      - name: actions/checkout@v2
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"          
+          git pull
+          git push
+
+      # - name: git config
+      #   env:
+      #     USER_NAME: ${{ github.event.pusher.name }}
+      #     USER_EMAIL: ${{ github.event.pusher.email }}
+      #     USER_TOKEN: ${{ github.event.pusher.token }}
+      #   run: |
+      #     git config --global user.email "$USER_EMAIL"
+      #     git config --global user.name "$USER_NAME"    
+      #     git remote add gh-token "https://$USER_TOKEN@github.com/:user/:repo.git"
+      #     git fetch gh-token && git fetch gh-token gh-pages:gh-pages
+      #     git push gh-token gh-pages
+          
+      # - name: Deploy Files
+      #   run: |
+      #     git config user.name "${{ env.GH_USER }}"
+      #     git config user.email "${{ env.GH_MAIL }}"
+      #     git remote add gh-token "https://${{ env.GH_TOKEN }}@github.com/:user/:repo.git"
+      #     git fetch gh-token && git fetch gh-token gh-pages:gh-pages
+      #     git push gh-token gh-pages
+
+      # - name: cd data
+      #   run: |
+      #     cd dataviewer/resource/
+      #     ls

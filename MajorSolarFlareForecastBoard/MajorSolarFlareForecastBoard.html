@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Major Solar Flare Probability Forecast Board</title>
+    <script src="/MajorSolarFlareForecastBoard/js/jsoc_api.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <div id="name">
+    </div>
+    <div class="tbContainer">
+        <table class="tbtb">
+            <thead>
+                <tr>
+                    <th class="update">Updated every 24 minutes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th class="inner">Date</th>
+                                <th class="inner">HARPNUM</th>
+                                <th class="inner">NOAA AR</th>
+                                <th class="inner"><I>H<sub>C</sub></I><sub>,total</sub></th>
+                                <th class="inner"><I>P</I><sub>TOTUSJH</sub></th>
+                                <th class="inner"><I>J<sub>z</sub></I><sub>,total</sub></th>
+                                <th class="inner"><I>P</I><sub>TOTUSJZ</sub></th>
+                                <th class="inner"><I>&#961;</I><sub>tot</sub></th>
+                                <th class="inner"><I>P</I><sub>TOTPOT</sub></th>
+                                <th class="inner">&#934;</th>
+                                <th class="inner"><I>P</I><sub>USFLUX</sub></th>
+                                <th class="inner"><I>H<sub>C</sub></I><sub>,abs</sub></th>
+                                <th class="inner"><I>P</I><sub>ABSNJZH</sub></th>
+                                <th class="inner"><I>J<sub>z</sub></I><sub>,sum</sub></th>
+                                <th class="inner"><I>P</I><sub>SAVNCPP</sub></th>
+                            </tr>
+                            </thead>
+                            <tbody class="tbody">
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <span style="line-height: 500%"><br></span> 
+    <div class="Footer">1. SHARP parameter values are taken from <b>SHARP Data Viewer</b>.</div>
+    <div class="Footer">&nbsp;&nbsp;&nbsp;&nbsp;(<a href="http://jsoc.stanford.edu/data/hmi/sharp/dataviewer/" class="a_Footer" target="blank">http://jsoc.stanford.edu/data/hmi/sharp/dataviewer/</a>)</div>
+    <span style="line-height: 500%"><br></span> 
+    <div class="Footer">2. The probability forecast models are developed by Lim et al. (<a href="https://doi.org/10.5303/JKAS.2019.52.4.133" class="a_Footer" target="blank">2019</a>)</div>
+
+    <div class="contact">Contact: dalim@khu.ac.kr, kwon_yongjun@khu.ac.kr</div>
+</body>
+</html>
