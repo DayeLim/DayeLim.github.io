@@ -1,6 +1,6 @@
-baseURL = 'https://dayelim.github.io/'
+baseURL = 'http://DayeLim.github.io/'
 languageCode = 'en-us'
-title = 'Daye Lim'
+title = 'DAYE LIM'
 theme = 'hermit'
 
 [markup]
@@ -18,12 +18,12 @@ theme = 'hermit'
 
   [[menu.main]]
     name = "About"
-    url = "content/about/"
+    url = "/about/"
     weight = 10
   
   [[menu.main]]
     name = "Publications"
-    url = "content/publications/"
+    url = "/publications/"
     weight = 20
 
   [[menu.main]]
