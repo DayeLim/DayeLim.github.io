@@ -26,25 +26,21 @@ jobs:
       # - name: set env vars
       #   env:
       #     foo: bar
+      - name: delete files
+        run: |
+          rm public/MajorSolarFlareForecastBoard/resource/*.html
+          
       - uses: actions/setup-node@v2
         with:
           node-version: 14
 
-      # - name: git
-      #   run: git config --global url."https://${{ secrets.PAT }}@github.com/".insteadOf ssh://git@github.com/
-
-      # - name: pwd
-      #   run: |
-      #     pwd -
-
-      - name: delete files
-        run: |
-          rm public/MajorSolarFlareForecastBoard/resource/*.html
-
+      - name: npm ci
+        run: npm ci
+        
       - name: node index.js
         run: |
           cd RestAPI
-          npm index.js
+          node index.js
       
       - name: actions/checkout@v2
         run: |
