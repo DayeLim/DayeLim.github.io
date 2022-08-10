@@ -39,7 +39,7 @@ jobs:
 
       - name: delete files
         run: |
-          rm MajorSolarFlareForecastBoard/resource/*.html
+          rm public/MajorSolarFlareForecastBoard/resource/*.html
 
       - name: node index.js
         run: |
