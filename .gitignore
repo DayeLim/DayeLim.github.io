@@ -3,5 +3,4 @@ data/
 __pycache__/
 
 .*
-!.gitignore
-!.github
+!.git*
