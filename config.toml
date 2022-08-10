@@ -17,8 +17,8 @@ theme = 'hermit'
 [menu]
 
   [[menu.main]]
-    name = "About"
-    url = "about/"
+    name = "Curriculum Vitae"
+    url = "curriculum_vitae/"
     weight = 10
   
   [[menu.main]]

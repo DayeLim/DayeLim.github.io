@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Curriculum Vitae"
 date: 2022-08-10T08:18:40+02:00
 draft: true
 ---
