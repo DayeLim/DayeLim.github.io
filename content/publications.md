@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-date: 2022-08-08T23:58:01+02:00
+date: 2022-08-10T08:19:51+02:00
 draft: true
 ---
 ## 17. Slow magnetoacoustic oscillations in stellar coronal loops  
