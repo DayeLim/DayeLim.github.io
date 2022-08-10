@@ -7,7 +7,7 @@ theme = 'hermit'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-      
+
 [author]
   name = 'Daye Lim'
 
@@ -18,12 +18,12 @@ theme = 'hermit'
 
   [[menu.main]]
     name = "About"
-    url = "about/"
+    url = "/about/"
     weight = 10
   
   [[menu.main]]
     name = "Publications"
-    url = "publications/"
+    url = "/publications/"
     weight = 20
 
   [[menu.main]]
