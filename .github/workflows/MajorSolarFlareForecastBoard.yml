@@ -39,7 +39,7 @@ jobs:
         
       - name: node index.js
         run: |
-          cd RestAPI
+          cd public/RestAPI
           node index.js
       
       - name: actions/checkout@v2
