@@ -44,7 +44,7 @@ jobs:
       
       - name: delete node modules
         run: |
-          rm -f node_modules
+          rm -rf node_modules
       
       - name: actions/checkout@v2
         run: |
