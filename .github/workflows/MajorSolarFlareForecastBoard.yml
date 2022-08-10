@@ -44,11 +44,7 @@ jobs:
       
       - name: delete node modules
         run: |
-          cd ..
-          ls
-          cd ..
-          ls          
-          rm -r node_modules
+          npm uninstall <package-name>
       
       - name: actions/checkout@v2
         run: |
