@@ -46,6 +46,7 @@ jobs:
         run: |
           pwd
           cd node_modules
+          ls
           npm uninstall <package-name>
       
       - name: actions/checkout@v2
