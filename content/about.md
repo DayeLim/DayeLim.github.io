@@ -10,7 +10,7 @@ draft: true
 > Post-doc, Centre for mathematical Plasma-Astrophysics (CmPA), KU Leuven  
 daye.lim@kuleuven.be  
 dayelim38@gmail.com  
-dalim@khu.ac.kr    
+dalim@khu.ac.kr  
 ORCiD: [0000-0001-9914-9080][orlink]  
 
 [orlink]: https://orcid.org/0000-0001-9914-9080 "Go ORCiD"  
@@ -23,4 +23,3 @@ Space Weather
 Coronal Waves  
 Stellar Flares  
 Deep Learning  
-
