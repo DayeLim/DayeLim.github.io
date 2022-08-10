@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DAYE LIM</title>
-    <link>http://DayeLim.github.io/</link>
+    <link>https://DayeLim.github.io/</link>
     <description>Recent content on DAYE LIM</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://DayeLim.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://DayeLim.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publications</title>
-      <link>http://DayeLim.github.io/publications/</link>
+      <link>https://DayeLim.github.io/publications/</link>
       <pubDate>Wed, 10 Aug 2022 08:19:51 +0200</pubDate>
       
-      <guid>http://DayeLim.github.io/publications/</guid>
+      <guid>https://DayeLim.github.io/publications/</guid>
       <description>17. Slow magnetoacoustic oscillations in stellar coronal loops 2022
 Astrophysical Journal, 931, 63
 Daye Lim, Valery M. Nakariakov, and Yong-Jae Moon
@@ -25,10 +25,10 @@ DOI: 10.1007/s10509-022-04061-6
     
     <item>
       <title>About</title>
-      <link>http://DayeLim.github.io/about/</link>
+      <link>https://DayeLim.github.io/about/</link>
       <pubDate>Wed, 10 Aug 2022 08:18:40 +0200</pubDate>
       
-      <guid>http://DayeLim.github.io/about/</guid>
+      <guid>https://DayeLim.github.io/about/</guid>
       <description>DAYE LIM Post-doc, Centre for mathematical Plasma-Astrophysics (CmPA), KU Leuven
 daye.lim@kuleuven.be
 dayelim38@gmail.com
