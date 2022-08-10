@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DAYE LIM</title>
+    <link>http://DayeLim.github.io/</link>
+    <description>Recent content on DAYE LIM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://DayeLim.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>http://DayeLim.github.io/publications/</link>
+      <pubDate>Wed, 10 Aug 2022 08:19:51 +0200</pubDate>
+      
+      <guid>http://DayeLim.github.io/publications/</guid>
+      <description>17. Slow magnetoacoustic oscillations in stellar coronal loops 2022
+Astrophysical Journal, 931, 63
+Daye Lim, Valery M. Nakariakov, and Yong-Jae Moon
+DOI: 10.3847/1538-4357/ac69d8
+16. Active region and flare ribbon properties associated with X-class flares and CMEs of solar cycle 24 2022
+Astrophysics and Space Science, 367, 33
+P. Vijayalakshmi, A. Shanmugaraju, M. Bendict Lawrance, Yong-Jae Moon, Daye Lim, C. K. Balaji, and P. Hemalatha
+DOI: 10.1007/s10509-022-04061-6
+15. Selection of three (extreme)ultraviolet channels for solar satellite missions by deep learning 2021</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://DayeLim.github.io/about/</link>
+      <pubDate>Wed, 10 Aug 2022 08:18:40 +0200</pubDate>
+      
+      <guid>http://DayeLim.github.io/about/</guid>
+      <description>DAYE LIM Post-doc, Centre for mathematical Plasma-Astrophysics (CmPA), KU Leuven
+daye.lim@kuleuven.be
+dayelim38@gmail.com
+dalim@khu.ac.kr
+ORCiD: 0000-0001-9914-9080
+Research Interest Solar Physics
+Magnetohydrodynamics
+Solar Flares
+Space Weather
+Coronal Waves
+Stellar Flares
+Deep Learning</description>
+    </item>
+    
+  </channel>
+</rss>
