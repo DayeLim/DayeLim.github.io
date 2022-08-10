@@ -18,12 +18,12 @@ theme = 'hermit'
 
   [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "content/about/"
     weight = 10
   
   [[menu.main]]
     name = "Publications"
-    url = "/publications/"
+    url = "content/publications/"
     weight = 20
 
   [[menu.main]]
