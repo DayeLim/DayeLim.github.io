@@ -29,6 +29,7 @@ jobs:
       - name: delete files
         run: |
           rm public/MajorSolarFlareForecastBoard/resource/*.html
+          ls public/MajorSolarFlareForecastBoard/resource/
           
       - uses: actions/setup-node@v2
         with:
