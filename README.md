@@ -11,5 +11,9 @@ $ hugo new page-title.md
 ```
 $ hugo new posts/post-title.md
 ```
+## Before Git Pull
+```
+$ hugo -D
+```
 ## reference
 - https://github.com/Track3/hermit 
