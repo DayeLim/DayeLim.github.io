@@ -1,12 +1,12 @@
 name: Major Solar Flare Forecast Board
 
-on:
-  schedule:
-  - cron: "*/24 * * * *"
-
 # on:
-#   push:
-#     branches: [ master ]
+#   schedule:
+#   - cron: "*/24 * * * *"
+
+on:
+  push:
+    branches: [ master ]
 
 jobs:
   build:
@@ -45,7 +45,9 @@ jobs:
       - name: delete node modules
         run: |
           cd ..
+          ls
           cd ..
+          ls          
           rm -r node_modules
       
       - name: actions/checkout@v2
