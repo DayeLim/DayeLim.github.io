@@ -1,0 +1,149 @@
+* {
+    font-family: "arial";
+    color: rgb(71, 71, 71);
+    margin: 0 auto;
+}
+body {
+    font-size: 10px;
+}
+button {
+    font-size: 2rem;
+    color:rgb(44, 44, 44);
+    background-color:rgb(190, 190, 190);
+}
+button:hover {
+    color:rgb(92, 19, 151);
+    background-color:rgb(151, 143, 188);
+}
+div.menus {
+    width: 80rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid;
+    padding: 1rem 1rem;
+    background-color: white;
+}
+div.info_1, .info_2 {
+    width: 80rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid;
+    padding: 1rem 1rem;
+    background-color: white;
+}
+#name {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(92, 19, 151);
+    font-size: 3rem;
+    padding: 1rem;    
+    margin: 0 auto;
+    white-space: nowrap;
+}
+#Beauty {
+    width: 5rem;
+    height: 5rem;
+    vertical-align: middle;
+    padding: 0rem 0rem 0rem 1rem;
+}
+#img_orcid_qr {
+    width: 6.5rem;
+    height: 6.5rem;
+    vertical-align: middle;
+    padding: 0rem 0rem 0rem 0rem;
+}
+#img_logo {
+    width: 7rem;
+    height: 7rem;
+    vertical-align: middle;
+    padding: 0rem 0rem 0rem 0rem;
+}
+#course, #orcid, #email, #email_01, #email_02, #interest {
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.5rem;
+}
+div.box {
+    width: 80rem;
+    margin-bottom: 0.1rem;
+    border: 0.1rem solid grey;
+    padding: 1rem 1rem;
+    background-color: white;
+}
+.box_title {
+    width: 80rem;
+    background-color: rgb(44, 44, 44);
+    padding: 1rem 1rem;
+    border: 0.1rem solid black;
+    margin-bottom: 0.1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.paper div {
+    margin-bottom: 0.2rem;
+}
+.div_papertitle {
+    font-size: 1.4rem;
+}
+.div_paperyear {
+    font-size: 1.4rem;
+}
+.div_paperjournal {
+    font-size: 1.4rem;
+}
+.div_papernames {
+    font-size: 1.4rem;
+}
+.div_paperDOI{
+    font-size: 1.4rem;
+}
+.paperlink {
+    font-size: 1.4rem;
+}
+.a_linkpaperDOI, .paperlink, .linkorcid, .a_Footer {
+    color: rgb(92, 19, 151);
+}
+.a_linkpaperDOI:hover, .paperlink:hover, .linkorcid:hover, .a_Footer:hover {
+    color:  red;
+}
+
+
+table.table {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border-collapse: collapse;
+}
+
+th.inner {
+    background-color:rgb(172, 160, 182);
+    padding: 1rem;
+    border: 1px solid;
+}
+
+td.contents {
+    padding: 1rem;
+    border: 1px solid;
+}
+
+th.update {
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+a.a_Footer {
+    text-decoration: none;
+}
+
+div.Footer {
+    margin: 0 1rem;
+    font-size: 2.5rem;
+    white-space: nowrap;
+}
+
+.contact {
+    margin: 0 1rem;
+    font-size: 2.5rem;
+    position: fixed;
+    bottom: 1rem;
+    width: 100%;
+}
