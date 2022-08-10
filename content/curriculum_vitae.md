@@ -19,6 +19,27 @@ ORCiD: [0000-0001-9914-9080][orlink]
 
 [orlink]: https://orcid.org/0000-0001-9914-9080 "Go ORCiD"  
 
+### Academic Career
+> August 2022-Present  
+Post-doctoral position  
+in KU Leuven  
+
+> March 2020-July 2022  
+Post-doctoral position  
+in Kyung Hee University  
+
+### Education
+> 2013-2020  
+Ph.D.  
+Advisor Prof. Yong-Jae Moon  
+School of Space Research  
+Kyung Hee University  
+
+> 2009-2013  
+B.S.  
+Department of Astronomy and Space Science  
+Kyung Hee University  
+
 ### Research Interests  
 > Solar Physics – MHD, Solar EUV, Solar Flares, Space Weather, Coronal Waves  
 Stellar Physics  
@@ -50,24 +71,3 @@ The Excellence Award, The Artificial Intelligence Contest for Predicting Space W
 
 > 2019  
 The Top Award, The Young Scientist Award by the Center for Women in Science, Engineering and Technology (WISET)-Korean Astronomical Society (KAS)  
-
-### Academic Career
-> August 2022-Present  
-Post-doctoral position  
-in KU Leuven  
-
-> March 2020-July 2022  
-Post-doctoral position  
-in Kyung Hee University  
-
-### Education
-> 2013-2020  
-Ph.D.  
-Advisor Prof. Yong-Jae Moon  
-School of Space Research  
-Kyung Hee University  
-
-> 2009-2013  
-B.S.  
-Department of Astronomy and Space Science  
-Kyung Hee University  
