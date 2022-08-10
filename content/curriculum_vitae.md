@@ -53,7 +53,7 @@ Machine Learning & Deep Learning Algorithms
 
 ### Research Experience  
 > Doctoral Thesis  
-Sausage Oscillations in a Plasma Cylinder and Forecasting of Major Solar Flares, Ph. D. Thesis, Kyung Hee University (2020)  
+Sausage Oscillations in a Plasma Cylinder and Forecasting of Major Solar Flares, Ph.D. Thesis, Kyung Hee University (2020)  
 
 ### Participation in School Program
 > June 2018–June 2018  
