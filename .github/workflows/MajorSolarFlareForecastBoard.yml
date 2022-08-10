@@ -42,6 +42,12 @@ jobs:
           cd public/RestAPI
           node index.js
       
+      - name: delete node modules
+        run: |
+          cd ..
+          cd ..
+          rm -r node_modules
+      
       - name: actions/checkout@v2
         run: |
           git config user.name github-actions
