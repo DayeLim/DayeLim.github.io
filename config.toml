@@ -28,5 +28,5 @@ theme = 'hermit'
 
   [[menu.main]]
     name = "Major Solar Flare Probability Forecast Board"
-    url = "MajorSolarFlareForecastBoard/"
+    url = "https://dayelim.github.io/MajorSolarFlareForecastBoard/"
     weight = 30
