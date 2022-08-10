@@ -1,4 +1,4 @@
-baseURL = 'http://DayeLim.github.io/'
+baseURL = 'https://DayeLim.github.io/'
 languageCode = 'en-us'
 title = 'DAYE LIM'
 theme = 'hermit'
