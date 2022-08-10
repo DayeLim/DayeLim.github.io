@@ -4,8 +4,8 @@ var fs = require('fs');
 var addr = 'http://jsoc.stanford.edu/cgi-bin/ajax/jsoc_info?ds=hmi.mharp_720s_nrt[][$]&op=rs_list&key=T_REC,HARPNUM,NOAA_ARS';
 var harp_addr_head = 'http://jsoc.stanford.edu/cgi-bin/ajax/jsoc_info?ds=hmi.sharp_720s_nrt[';
 var harp_addr_foot = '][]&op=rs_list&key=';
-var mharp_dir = '../MajorSolarFlareForecastBoard/resource/hmi_mharp_720s_nrt.html';
-var harpnum_dir_head = '../MajorSolarFlareForecastBoard/resource/hmi_sharp_720s_nrt[';
+var mharp_dir = '..public/MajorSolarFlareForecastBoard/resource/hmi_mharp_720s_nrt.html';
+var harpnum_dir_head = '..public/MajorSolarFlareForecastBoard/resource/hmi_sharp_720s_nrt[';
 var harpnum_dir_foot = '].html';
 
 var keys = 'T_REC,HARPNUM,TOTUSJH,TOTUSJZ,TOTPOT,USFLUX,ABSNJZH,SAVNCPP';
