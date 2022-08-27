@@ -16,8 +16,10 @@ Tel. +82-10-3110-6790
 E-mail: daye.lim@kuleuven.be  
 &nbsp;　　　 dayelim38@gmail.com  
 ORCiD: [0000-0001-9914-9080][orlink]  
+Scopus: [55694295500][scolink]  
 
 [orlink]: https://orcid.org/0000-0001-9914-9080 "Go ORCiD"  
+[scolink]: https://www.scopus.com/authid/detail.uri?authorId=55694295500#tab=co-authors "Go Scopus"  
 
 ### Academic Career
 > August 2022-Present  
