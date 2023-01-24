@@ -3,6 +3,14 @@ title: "Publications"
 date: 2022-08-10T08:19:51+02:00
 draft: true
 ---
+## 18. Pixel-to-pixel Translation of Solar Extreme-ultraviolet Images for DEMs by Fully Connected Networks  
+> 2023  
+The Astrophysical Journal Supplement Series  
+Eunsu Park, Harim Lee, Yong-Jae Moon, Jin-Yi Lee, Il-Hyun Cho, Kyoung-Sun Lee, **`Daye Lim`**, Hyun-Jin Jeong, and Jae-Ok Lee  
+DOI: [10.3847/1538-4365/aca902][18-link]
+
+[18-link]: https://iopscience.iop.org/article/10.3847/1538-4365/aca902
+
 ## 17. Slow magnetoacoustic oscillations in stellar coronal loops  
 > 2022  
 Astrophysical Journal, 931, 63  
