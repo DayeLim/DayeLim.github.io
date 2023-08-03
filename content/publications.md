@@ -3,9 +3,17 @@ title: "Publications"
 date: 2022-08-10T08:19:51+02:00
 draft: true
 ---
-## 18. Pixel-to-pixel translation of solar extreme-ultraviolet images for DEMs by fully connected networks  
+## 19. The Role of High-frequency Transverse Oscillations in Coronal Heating  
 > 2023  
-Astrophysical Journal Supplement Series, 264, 33  
+Astrophysical Journal Letters, 952, L15  
+**`Daye Lim`**, Tom Van Doorsselaere, David Berghmans, Richard J. Morton, Vaibhav Pant, and Sudip Mandal  
+DOI: [10.3847/2041-8213/ace423][19-link]  
+
+[19-link]: https://iopscience.iop.org/article/10.3847/2041-8213/ace423  
+
+## 18. Pixel-to-pixel Translation of Solar Extreme-ultraviolet Images for DEMs by Fully Connected Networks  
+> 2023  
+The Astrophysical Journal Supplement Series  
 Eunsu Park, Harim Lee, Yong-Jae Moon, Jin-Yi Lee, Il-Hyun Cho, Kyoung-Sun Lee, **`Daye Lim`**, Hyun-Jin Jeong, and Jae-Ok Lee  
 DOI: [10.3847/1538-4365/aca902][18-link]
 
