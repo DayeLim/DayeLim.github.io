@@ -17,3 +17,6 @@ $ hugo -D
 ```
 ## reference
 - https://github.com/Track3/hermit 
+
+## hugo version
+v0.92.0
