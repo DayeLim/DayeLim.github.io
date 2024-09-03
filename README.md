@@ -18,5 +18,8 @@ $ hugo -D
 ## reference
 - https://github.com/Track3/hermit 
 
+## hugo install
+- choco install hugo --version=0.92.0
+
 ## hugo version
 v0.92.0
