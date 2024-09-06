@@ -91,11 +91,6 @@ Bachelor Project at KU Leuven
 Master students Space Weather Project at KU Leuven  
 “Statistical Relationships between Kink Oscillations and Active Region Magnetic Parameters”  
 
-### Administration Experience
-> 2018 –2021  
-Managing grant budget in the group led by Prof. Yong-Jae Moon  
-from Kyung Hee University in South Korea  
-
 ### Grants and Fellowships
 > Jun 2021 – Jul 2022  
 2021R1I1A1A01040372 (PI: Daye Lim)  
@@ -139,10 +134,6 @@ The Solar/Space MHD International Summer School 2011, University of Science and 
 Registration date: 05 August 2019  
 Title of the invention: Device and method for forecasting solar flare based on SDO/HMI vector magnetic fields  
 Inventor: Yong-Jae Moon and Daye Lim  
-
-### Membership of Scientific Organisations and Societies
-> 2015 – 2017  
-Scientific organizing committee of Young Scientists for the Sun and Space Weather in South Korea  
 
 ### Seminars
 > 30 Jul 2024  
