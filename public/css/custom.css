@@ -1,0 +1,15 @@
+/* 사이트 제목 */
+#home-title {
+  font-family: Arial, sans-serif;
+}
+
+/* 부제(homeSubtitle1/2) */
+#home-subtitle {
+  font-family: Arial, sans-serif;
+}
+
+/* 전체 사이트 글꼴 */
+body, h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: Arial, sans-serif !important;
+  font-style: normal !important; /* 모든 기울임 제거 */
+}
