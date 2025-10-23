@@ -3,16 +3,91 @@ title: "Publications"
 date: 2022-08-10T08:19:51+02:00
 draft: true
 ---
-## Press Articles  
-### 1. Het raadsel van de hete zonnecorona  
+## Peer-Reviewed Publications  
+### 32 peer-reviewed journal articles: 12 as first author, 5 as corresponding author, 2 submitted, 1 accepted, and 29 published, including 14 since 2023  
+
+### 32. A new approach for inferring solar and geomagnetic activities of the Carrington event by deep learning  
+> 2025  
+Journal of Space Weather and Space Climate, Submitted  
+Harm Lee, **`Daye Lim`**, Eunsu Park, Yong-Jae Moon, and Hisashi Hayakawa  
+
+### 31. Accessing the fine temporal scale of EUV brightenings and their quasi-periodic pulsations: 1 second cadence observations by Solar Orbiter/EUI  
+> 2025  
+Astronomy & Astrophysics, Accepted  
+**`Daye Lim`**, Tom Van Doorsselaere, Nancy Narang, Laura A. Hayes, Emil Kraaikamp, Aadish Joshi, Konstantina Loumou, Cis Verbeeck, David Berghmans, and Krzysztof Barczynski  
+DOI: [10.48550/arXiv.2510.05810][30-link]  
+
+[30-link]: https://doi.org/10.48550/arXiv.2510.05810  
+
+### 30. Uniturbulence and Alfvén Wave Solar Model in MPIAMRVAC  
+> 2025  
+Astronomy & Astrophysics, Submitted  
+Max McMurdo, Tom Van Doorsselaere, Nobert Magyar, Luka Banovic, and **`Daye Lim`**  
+
+### 29. A method to predict the likelihood and magnitudes of solar flares for a given solar active region  
+> 2025  
+Journal of the Korean Astronomical Society, 58, 197  
+**`Daye Lim`**, Yong-Jae Moon, and Hyun-Jin Jeong  
+DOI: [10.5303/JKAS.2025.58.2.197][29-link]  
+
+[29-link]: https://doi.org/10.5303/JKAS.2025.58.2.197  
+
+### 28. Thin coronal jets and plasmoid-mediated reconnection. Insights from Solar Orbiter observations and Bifrost simulations  
+> 2025  
+Astronomy & Astrophysics, 702, A188  
+Daniel Nóbrega-Siverio, Reetika Joshi, Eva Sola-Viladesau, David Berghmans, and **`Daye Lim`**  
+DOI: [10.1051/0004-6361/202555357][28-link]  
+
+[28-link]: https://doi.org/10.1051/0004-6361/202555357  
+
+### 27. Quasi-periodic pulsations in 20-second cadence TESS flares  
+> 2025  
+Astronomy & Astrophysics, 700, A178  
+Aadish Joshi, Tom Van Doorsselaere, **`Daye Lim`**, and Dario Fritzewski  
+DOI: [10.1051/0004-6361/202554820][27-link]  
+
+[27-link]: https://doi.org/10.1051/0004-6361/202554820  
+
+### 26. Extremeultraviolet transient brightenings in the quiet-Sun corona : Closestperihelion observations with Solar Orbiter/EUI  
+> 2025  
+Astronomy & Astrophysics, 699, A138  
+Nancy Narang, Cis Verbeeck, Marilena Mierla, David Berghmans, Frédéric Auchère, Sergei Shestov, Véronique Delouille, Lakshmi Pradeep Chitta, Eric Priest, **`Daye Lim`**, Laurent R. Dolla, Emil Kraaikamp  
+DOI: [10.1051/0004-6361/202554650][26-link]  
+
+[26-link]: https://doi.org/10.1051/0004-6361/202554650  
+
+### 25. Quasi-periodic pulsations in extreme-ultraviolet brightenings  
+> 2025  
+Astronomy & Astrophysics, 698, A65  
+**`Daye Lim`**, Tom Van Doorsselaere, David Berghmans, Laura Hayes, Cis Verbeeck, Nancy Narang, and Marie Dominique  
+DOI: [10.1051/0004-6361/202554587][25-link]  
+
+[25-link]: https://doi.org/10.1051/0004-6361/202554587  
+
+### 24. Spectra of standing kink waves in loops and the effects of the lower solar atmosphere  
+> 2025  
+Astronomy & Astrophysics, 693, A261  
+Konstantinos Karampelas, **`Daye Lim`**, Tom Van Doorsselaere, and Yuhang Gao  
+DOI: [10.1051/0004-6361/202452399][24-link]  
+
+[24-link]: https://doi.org/10.1051/0004-6361/202452399  
+
+### 23. On the existence of long-period decayless oscillations in short active region loops  
+> 2025  
+The Astrophysical Journal, 979, 6  
+Arpit Kumar Shrivastav, Vaibhav Pant, Rohan Kumar, David Berghmans, Tom Van Doorsselaere, Dipankar Banerjee, Elena Petrova, and **`Daye Lim`**  
+DOI: [10.3847/1538-4357/ad95fb][23-link]  
+
+[23-link]: https://doi.org/10.3847/1538-4357/ad95fb  
+
+### 22. Undersampling effects on observed periods of coronal oscillations  
 > 2024  
-ZENIT  
-**`Daye Lim`**, David Berghmans, Tom Van Doorsselaere, Cis Verbeeck, and Koen Stegen  
-LINK: [ZENIT april][01-presslink]
+Astronomy & Astrophysics, 690, L8  
+**`Daye Lim`**, Tom Van Doorsselaere, Valery M. Nakariakov, Dmitrii Y. Kolotkov, Yuhang Gao, and David Berghmans  
+DOI: [10.1051/0004-6361/202451684][22-link]
 
-[01-presslink]: https://zenitonline.nl/product/zenit-april-3/  
+[22-link]: https://doi.org/10.1051/0004-6361/202451684  
 
-## Refereed Journals  
 ### 21. Characteristics and energy flux distributions of decayless transverse oscillations depending on coronal regions  
 > 2024
 Astronomy & Astrophysics, 689, A16  
