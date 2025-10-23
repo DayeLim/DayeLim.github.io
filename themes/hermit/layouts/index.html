@@ -21,6 +21,9 @@
 			{{- with .Site.Params.homeSubtitle2 }}
 			<p id="home-subtitle">{{.}}</p>
 			{{- end }}
+			{{- with .Site.Params.homeSubtitle3 }}
+			<p id="home-subtitle">{{.}}</p>
+			{{- end }}
 			{{- with .Site.Params.social }}
 			<div id="home-social">
 				{{ partialCached "social-icons.html" . }}
