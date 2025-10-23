@@ -12,7 +12,8 @@ theme = 'hermit'
   name = 'Daye Lim'
 
 [params]
-  homeSubtitle = "Post-doc, Centre for mathematical Plasma-Astrophysics (CmPA), KU Leuven"
+  homeSubtitle1 = """Post-doc, Royal Observatory of Belgium (ROB) &  """
+  homeSubtitle2 = """Centre for mathematical Plasma-Astrophysics (CmPA), KU Leuven"""
 
 [menu]
 
