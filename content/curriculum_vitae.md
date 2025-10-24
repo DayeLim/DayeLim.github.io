@@ -145,7 +145,7 @@ Mentored a project titled
 Approved, TESS Director’s Discretionary Targets proposal on  
 “TESS monitoring of flaring CHEOPS targets”  
 
-> Jul 2025
+> Jul 2025  
 Time allocation: 176 orbits, priority 3 (low) CHEOPS AO-6 proposal titled  
 "Probing rapid quasi-periodic pulsations in flares of active Solar-like stars" (PR260003)  
 
