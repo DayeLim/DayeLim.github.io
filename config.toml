@@ -15,6 +15,7 @@ theme = 'hermit'
   homeSubtitle1 = """Post-doc"""
   homeSubtitle2 = """Royal Observatory of Belgium (ROB)"""
   homeSubtitle3 = """Centre for mathematical Plasma-Astrophysics (CmPA), KU Leuven"""
+
   customCSS = ["css/custom.css"]
   
 [menu]

@@ -12,4 +12,25 @@
 body, h1, h2, h3, h4, h5, h6, p, li, a {
   font-family: Arial, sans-serif !important;
   font-style: normal !important; /* 모든 기울임 제거 */
+  color: #ffffff !important; /* 글자색을 흰색으로 설정 */
+}
+
+html {
+  background: #909090; /* 사용자 정의 회색 배경 */
+}
+
+header {
+  background-color: #676765 !important; /* 헤더 배경색 변경 */
+}
+
+.content a {
+  word-wrap: break-word;
+  border: none;
+  box-shadow: inset 0 -4px 0 rgb(90, 90, 90);
+  transition-property: box-shadow;
+  transition-duration: .1s;
+
+  &:hover {
+    box-shadow: inset 0 -1em 0 rgb(90, 90, 90); 
+  }
 }
