@@ -28,25 +28,25 @@ Scopus: [55694295500][scolink]
 ### Academic Career
 > 16 Aug 2025 - Present  
 Post-doc  
-at the Royal Observatory of Belgium  
+Royal Observatory of Belgium  
 
 > 16 Aug 2024 - 15 Aug 2025  
 Post-doc  
-at KU Leuven  
+KU Leuven  
 
 > 16 Aug 2023 - 15 Aug 2024  
 Post-doc  
-at the Royal Observatory of Belgium  
+Royal Observatory of Belgium  
 (Joint position between KU Leuven and the Royal Observatory of Belgium)  
 
 > 15 Aug 2022 - 14 Aug 2023  
 Post-doc  
-at KU Leuven  
+KU Leuven  
 (Joint position between KU Leuven and the Royal Observatory of Belgium)  
 
 > 02 Mar 2020 – 31 Jul 2022  
 Post-doc  
-at Kyung Hee University  
+Kyung Hee University  
 
 ### Education
 > 02 Mar 2013 – 19 Feb 2020   
