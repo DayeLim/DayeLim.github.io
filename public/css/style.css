@@ -6,7 +6,7 @@
 #name {
     text-align: center;
     font-weight: bold;
-    color: rgb(92, 19, 151);
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     padding: 1rem;    
     margin: 0 auto;
@@ -21,7 +21,7 @@ table.table {
 }
 
 th.inner {
-    background-color:rgb(172, 160, 182);
+    background-color:rgb(200, 200, 200);
     padding: 0.5rem;
     border: 1px solid;
 }
