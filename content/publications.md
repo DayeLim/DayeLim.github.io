@@ -9,7 +9,7 @@ draft: true
 ### 32. A new approach for inferring solar and geomagnetic activities of the Carrington event by deep learning  
 > 2025  
 Journal of Space Weather and Space Climate, Submitted  
-Harm Lee, **`Daye Lim`**, Eunsu Park, Yong-Jae Moon, and Hisashi Hayakawa  
+Harim Lee, **`Daye Lim`**, Eunsu Park, Yong-Jae Moon, and Hisashi Hayakawa  
 
 ### 31. Accessing the fine temporal scale of EUV brightenings and their quasi-periodic pulsations: 1 second cadence observations by Solar Orbiter/EUI  
 > 2025  
