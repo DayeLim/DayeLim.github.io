@@ -3,7 +3,7 @@ title: "CURRICULUM VITAE OF DAYE LIM"
 date: 2022-08-10T08:18:40+02:00
 draft: true
 ---
-<img style="float: left; width: 5rem;" src="/images/Beauty.jpg">
+<img style="float: left; width: 5rem; margin-right: 0.5rem;" src="/images/Beauty.jpg">
 <img style="float: left; width: 6.3rem;" src="/images/QRcode_orcid_daye_lim.png"><br><br><br><br>
 
 ### Contact Information
