@@ -1,6 +1,6 @@
 baseURL = 'https://DayeLim.github.io/'
 languageCode = 'en-us'
-title = 'DAYE LIM'
+title = 'DAYE LIM (임다예)'
 theme = 'hermit'
 
 [markup]
@@ -13,8 +13,8 @@ theme = 'hermit'
 
 [params]
   homeSubtitle1 = """Post-doc"""
-  homeSubtitle2 = """Royal Observatory of Belgium (ROB)"""
-  homeSubtitle3 = """Centre for mathematical Plasma-Astrophysics (CmPA), KU Leuven"""
+  homeSubtitle2 = """Solar Influences Data Analysis Center, Royal Observatory of Belgium"""
+  homeSubtitle3 = """Centre for mathematical Plasma-Astrophysics, KU Leuven"""
 
   customCSS = ["css/custom.css"]
   

@@ -23,6 +23,18 @@ header {
   background-color: #676765 !important; /* 헤더 배경색 변경 */
 }
 
+.header-image {
+  margin-bottom: 20px;  /* 제목과의 간격 (20px → 원하시는 값으로 조정 가능) */
+}
+
+.header-image img {
+  width: 100%;       /* 전체 폭 맞춤 (화면 폭에 자동 반응) */
+  max-height: 200px; /* 원하는 높이 제한 */
+  object-fit: cover; /* 이미지 비율 유지하면서 꽉 채움 */
+  display: block;
+  margin: 0 auto;    /* 가운데 정렬 */
+}
+
 .content a {
   word-wrap: break-word;
   border: none;
