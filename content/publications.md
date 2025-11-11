@@ -19,7 +19,7 @@ DOI: [10.48550/arXiv.2510.05810][31-link]
 
 [31-link]: https://doi.org/10.48550/arXiv.2510.05810  
 
-### 30. Uniturbulence and Alfvén Wave Solar Model in MPIAMRVAC  
+### 30. Uniturbulence and Alfvén Wave Solar Model in MPI-AMRVAC  
 > 2025  
 Astronomy & Astrophysics, Accepted  
 Max McMurdo, Tom Van Doorsselaere, Nobert Magyar, Luka Banovic, and **`Daye Lim`**  
