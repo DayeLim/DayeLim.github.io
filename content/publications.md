@@ -15,14 +15,17 @@ Harim Lee, **`Daye Lim`**, Eunsu Park, Yong-Jae Moon, and Hisashi Hayakawa
 > 2025  
 Astronomy & Astrophysics, Accepted  
 **`Daye Lim`**, Tom Van Doorsselaere, Nancy Narang, Laura A. Hayes, Emil Kraaikamp, Aadish Joshi, Konstantina Loumou, Cis Verbeeck, David Berghmans, and Krzysztof Barczynski  
-DOI: [10.48550/arXiv.2510.05810][30-link]  
+DOI: [10.48550/arXiv.2510.05810][31-link]  
 
-[30-link]: https://doi.org/10.48550/arXiv.2510.05810  
+[31-link]: https://doi.org/10.48550/arXiv.2510.05810  
 
 ### 30. Uniturbulence and Alfvén Wave Solar Model in MPIAMRVAC  
 > 2025  
-Astronomy & Astrophysics, Submitted  
+Astronomy & Astrophysics, Accepted  
 Max McMurdo, Tom Van Doorsselaere, Nobert Magyar, Luka Banovic, and **`Daye Lim`**  
+DOI: [10.48550/arXiv.2510.27553][30-link]  
+
+[30-link]: https://doi.org/10.48550/arXiv.2510.27553
 
 ### 29. A method to predict the likelihood and magnitudes of solar flares for a given solar active region  
 > 2025  

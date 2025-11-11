@@ -14,6 +14,10 @@
 	{{- end }}
 	<div id="spotlight" class="animated fadeIn">
 		<div id="home-center">
+			<!-- 🖼️ 타이틀 위에 넣을 이미지 -->
+			<div class="header-image">
+				<img src="{{ "images/IMG_20251111_195301_596.jpg" | relURL }}" alt="Site Banner" />
+			</div>
 			<h1 id="home-title">{{ .Site.Title }}</h1>
 			{{- with .Site.Params.homeSubtitle1 }}
 			<p id="home-subtitle">{{.}}</p>
