@@ -4,7 +4,7 @@ date: 2022-08-10T08:19:51+02:00
 draft: true
 ---
 ## Peer-Reviewed Publications  
-### 32 peer-reviewed journal articles: 12 as first author, 5 as corresponding author, 2 submitted, 1 accepted, and 29 published, including 14 since 2023  
+### 32 peer-reviewed journal articles: 12 as first author, 5 as corresponding author, 1 submitted, 1 accepted, and 30 published, including 14 since 2023  
 
 ### 32. A new approach for inferring solar and geomagnetic activities of the Carrington event by deep learning  
 > 2025  
@@ -13,11 +13,11 @@ Harim Lee, **`Daye Lim`**, Eunsu Park, Yong-Jae Moon, and Hisashi Hayakawa
 
 ### 31. Accessing the fine temporal scale of EUV brightenings and their quasi-periodic pulsations: 1 second cadence observations by Solar Orbiter/EUI  
 > 2025  
-Astronomy & Astrophysics, Accepted  
+Astronomy & Astrophysics, 704, A58  
 **`Daye Lim`**, Tom Van Doorsselaere, Nancy Narang, Laura A. Hayes, Emil Kraaikamp, Aadish Joshi, Konstantina Loumou, Cis Verbeeck, David Berghmans, and Krzysztof Barczynski  
-DOI: [10.48550/arXiv.2510.05810][31-link]  
+DOI: [10.1051/0004-6361/202557135][31-link]  
 
-[31-link]: https://doi.org/10.48550/arXiv.2510.05810  
+[31-link]: https://doi.org/10.1051/0004-6361/202557135  
 
 ### 30. Uniturbulence and Alfvén Wave Solar Model in MPI-AMRVAC  
 > 2025  
