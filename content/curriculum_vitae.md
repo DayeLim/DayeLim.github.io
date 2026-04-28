@@ -7,15 +7,16 @@ draft: true
 <img style="float: left; width: 6.3rem;" src="/images/QRcode_orcid_daye_lim.png"><br><br><br><br>
 
 ### Contact Information
-> Royal Observatory of Belgium (ROB)  
-Ringlaan 3  
-B-1180 Brussels  
-Belgium  
+> Streatham Campus  
+University of Exeter  
+North Park Road  
+Exeter  
+UK  
+EX4 4QF  
 
-Tel. +32-0486-800-041  
+Tel. +44-7428-436071  
 　　 +82-10-3110-6790  
-E-mail: daye.lim@ksb-orb.be  
-&nbsp;　　　 daye.lim@kuleuven.be  
+E-mail: d.lim2@exeter.ac.uk  
 &nbsp;　　　 dayelim38@gmail.com  
 ORCiD: [0000-0001-9914-9080][orlink]  
 WoS Researcher ID: [HPF-1699-2023][woslink]  

@@ -4,28 +4,38 @@ date: 2022-08-10T08:19:51+02:00
 draft: true
 ---
 ## Peer-Reviewed Publications  
-### 32 peer-reviewed journal articles: 12 as first author, 5 as corresponding author, 1 submitted, 1 accepted, and 30 published, including 14 since 2023  
+### 34 peer-reviewed journal articles: 12 as first author, 6 as corresponding author (*), 1 accepted, 2 submitted, and 31 published, including 17 since 2023    
+
+### 34. A universal scaling between damping time and period of decay phase quasi-periodic pulsations from solar EUV brightenings to X-ray stellar flares  
+> 2026  
+Nature Astronomy, Submitted  
+**`Daye Lim`**, Tom Van Doorsselaere, Valery Nakariakov, S. Krishna Prasad, David Berghmans, Laura A. Hayes, Kyung-Suk Cho, Sujin Kim  
+
+### 33. High-Frequency Magnetohydrodynamic Waves with Substantial Energy in the Solar Polar Corona  
+> 2026  
+National Science Review, Submitted  
+Yuhang Gao, Hui Tian, Richard Morton, Tom Van Doorsselaere, **`Daye Lim`**, Mingzhe Guo, Jiansen He, and Zhenyong Hou  
 
 ### 32. A new approach for inferring solar and geomagnetic activities of the Carrington event by deep learning  
-> 2025  
-Journal of Space Weather and Space Climate, Submitted  
+> 2026  
+Journal of Space Weather and Space Climate, Accepted  
 Harim Lee, **`Daye Lim`**, Eunsu Park, Yong-Jae Moon, and Hisashi Hayakawa  
 
-### 31. Accessing the fine temporal scale of EUV brightenings and their quasi-periodic pulsations: 1 second cadence observations by Solar Orbiter/EUI  
+### 31. Uniturbulence and Alfvén Wave Solar Model in MPI-AMRVAC  
+> 2026  
+Astronomy & Astrophysics, Accepted  
+Max McMurdo, Tom Van Doorsselaere, Nobert Magyar, Luka Banovic, and **`Daye Lim`**  
+DOI: [10.48550/arXiv.2510.27553][31-link]  
+
+[31-link]: https://doi.org/10.48550/arXiv.2510.27553
+
+### 30. Accessing the fine temporal scale of EUV brightenings and their quasi-periodic pulsations: 1 second cadence observations by Solar Orbiter/EUI  
 > 2025  
 Astronomy & Astrophysics, 704, A58  
 **`Daye Lim`**, Tom Van Doorsselaere, Nancy Narang, Laura A. Hayes, Emil Kraaikamp, Aadish Joshi, Konstantina Loumou, Cis Verbeeck, David Berghmans, and Krzysztof Barczynski  
-DOI: [10.1051/0004-6361/202557135][31-link]  
+DOI: [10.1051/0004-6361/202557135][30-link]  
 
-[31-link]: https://doi.org/10.1051/0004-6361/202557135  
-
-### 30. Uniturbulence and Alfvén Wave Solar Model in MPI-AMRVAC  
-> 2025  
-Astronomy & Astrophysics, Accepted  
-Max McMurdo, Tom Van Doorsselaere, Nobert Magyar, Luka Banovic, and **`Daye Lim`**  
-DOI: [10.48550/arXiv.2510.27553][30-link]  
-
-[30-link]: https://doi.org/10.48550/arXiv.2510.27553
+[30-link]: https://doi.org/10.1051/0004-6361/202557135  
 
 ### 29. A method to predict the likelihood and magnitudes of solar flares for a given solar active region  
 > 2025  
