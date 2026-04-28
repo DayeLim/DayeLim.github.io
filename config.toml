@@ -13,8 +13,7 @@ theme = 'hermit'
 
 [params]
   homeSubtitle1 = """Post-doc"""
-  homeSubtitle2 = """Solar Influences Data Analysis Center, Royal Observatory of Belgium"""
-  homeSubtitle3 = """Centre for mathematical Plasma-Astrophysics, KU Leuven"""
+  homeSubtitle2 = """Department of Mathematics and Statistics, University of Exeter"""
 
   customCSS = ["css/custom.css"]
   
