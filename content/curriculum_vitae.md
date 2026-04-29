@@ -26,9 +26,9 @@ Scopus: [55694295500][scolink]
 [woslink]: https://www.webofscience.com/wos/author/record/HPF-1699-2023 "Go WoS Researcher ID"  
 [scolink]: https://www.scopus.com/authid/detail.uri?authorId=55694295500#tab=co-authors "Go Scopus"  
 
-### Academic Career
-> 01 Apr 2026 - Present
-Post-doc
+### Academic Career  
+> 01 Apr 2026 - Present  
+Post-doc  
 University of Exeter  
 
 > 16 Aug 2025 - 31 Mar 2026  
