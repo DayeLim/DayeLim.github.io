@@ -4,12 +4,7 @@ date: 2022-08-10T08:19:51+02:00
 draft: true
 ---
 ## Peer-Reviewed Publications  
-### 34 peer-reviewed journal articles: 12 as first author, 6 as corresponding author (*), 1 accepted, 2 submitted, and 31 published, including 17 since 2023    
-
-### 34. A universal scaling between damping time and period of decay phase quasi-periodic pulsations from solar EUV brightenings to X-ray stellar flares  
-> 2026  
-Nature Astronomy, Submitted  
-**`Daye Lim`**, Tom Van Doorsselaere, Valery Nakariakov, S. Krishna Prasad, David Berghmans, Laura A. Hayes, Kyung-Suk Cho, Sujin Kim  
+### 33 peer-reviewed journal articles: 12 as first author, 6 as corresponding author (*), 1 submitted, and 32 published, including 17 since 2023  
 
 ### 33. High-Frequency Magnetohydrodynamic Waves with Substantial Energy in the Solar Polar Corona  
 > 2026  
@@ -18,8 +13,11 @@ Yuhang Gao, Hui Tian, Richard Morton, Tom Van Doorsselaere, **`Daye Lim`**, Ming
 
 ### 32. A new approach for inferring solar and geomagnetic activities of the Carrington event by deep learning  
 > 2026  
-Journal of Space Weather and Space Climate, Accepted  
+Journal of Space Weather and Space Climate  
 Harim Lee, **`Daye Lim`**, Eunsu Park, Yong-Jae Moon, and Hisashi Hayakawa  
+DOI: [https://doi.org/10.1051/swsc/2026009][32-link]  
+
+[32-link]: https://doi.org/10.1051/swsc/2026009  
 
 ### 31. Uniturbulence and Alfvén Wave Solar Model in MPI-AMRVAC  
 > 2026  
