@@ -4,24 +4,27 @@ date: 2022-08-10T08:19:51+02:00
 draft: true
 ---
 ## Peer-Reviewed Publications  
-### 34 peer-reviewed journal articles: 13 as first author, 6 as corresponding author (*), 2 accepted, and 32 published, including 17 since 2023  
+### 34 peer-reviewed journal articles: 13 as first author, 6 as corresponding author (*), including 17 since 2023  
 
 ### 34. A universal scaling between damping time and period of quasi-periodic pulsations from solar EUV brightenings to X-ray stellar flares  
 > 2026  
-Astrophysical Journal Letters, Accepted  
+Astrophysical Journal Letters, 1007, L15  
 **`Daye Lim`**, Tom Van Doorsselaere, Valery M. Nakariakov, S. Krishna Prasad, David Berghmans, Laura A. Hayes, Kyung-Suk Cho, and Sujin Kim  
-DOI: [https://arxiv.org/abs/2607.17359][34-link]  
+DOI: [https://iopscience.iop.org/article/10.3847/2041-8213/ae8cfd][34-link]  
 
-[34-link]: https://arxiv.org/abs/2607.17359  
+[34-link]: https://iopscience.iop.org/article/10.3847/2041-8213/ae8cfd  
 
 ### 33. High-Frequency Magnetohydrodynamic Waves with Substantial Energy in the Solar Polar Corona  
 > 2026  
-National Science Review, Accepted  
+National Science Review, 13, nwag370  
 Yuhang Gao, Hui Tian, Richard Morton, Tom Van Doorsselaere, **`Daye Lim`**, Mingzhe Guo, Jiansen He, and Zhenyong Hou  
+DOI: [https://doi.org/10.1093/nsr/nwag370][33-link]  
+
+[33-link]: https://doi.org/10.1093/nsr/nwag370  
 
 ### 32. A new approach for inferring solar and geomagnetic activities of the Carrington event by deep learning  
 > 2026  
-Journal of Space Weather and Space Climate  
+Journal of Space Weather and Space Climate, 16, 11  
 Harim Lee, **`Daye Lim`**, Eunsu Park, Yong-Jae Moon, and Hisashi Hayakawa  
 DOI: [https://doi.org/10.1051/swsc/2026009][32-link]  
 
@@ -29,11 +32,11 @@ DOI: [https://doi.org/10.1051/swsc/2026009][32-link]
 
 ### 31. Uniturbulence and Alfvén Wave Solar Model in MPI-AMRVAC  
 > 2026  
-Astronomy & Astrophysics, Accepted  
+Astronomy & Astrophysics, 705, A15  
 Max McMurdo, Tom Van Doorsselaere, Nobert Magyar, Luka Banovic, and **`Daye Lim`**  
-DOI: [10.48550/arXiv.2510.27553][31-link]  
+DOI: [https://doi.org/10.1051/0004-6361/202555912][31-link]  
 
-[31-link]: https://doi.org/10.48550/arXiv.2510.27553
+[31-link]: https://doi.org/10.1051/0004-6361/202555912
 
 ### 30. Accessing the fine temporal scale of EUV brightenings and their quasi-periodic pulsations: 1 second cadence observations by Solar Orbiter/EUI  
 > 2025  
