@@ -9,7 +9,7 @@ draft: true
 ### 34. A universal scaling between damping time and period of quasi-periodic pulsations from solar EUV brightenings to X-ray stellar flares  
 > 2026  
 Astrophysical Journal Letters, 1007, L15  
-**`Daye Lim`**, Tom Van Doorsselaere, Valery M. Nakariakov, S. Krishna Prasad, David Berghmans, Laura A. Hayes, Kyung-Suk Cho, and Sujin Kim  
+**`Daye Lim*`**, Tom Van Doorsselaere, Valery M. Nakariakov, S. Krishna Prasad, David Berghmans, Laura A. Hayes, Kyung-Suk Cho, and Sujin Kim  
 DOI: [https://iopscience.iop.org/article/10.3847/2041-8213/ae8cfd][34-link]  
 
 [34-link]: https://iopscience.iop.org/article/10.3847/2041-8213/ae8cfd  
@@ -41,7 +41,7 @@ DOI: [https://doi.org/10.1051/0004-6361/202555912][31-link]
 ### 30. Accessing the fine temporal scale of EUV brightenings and their quasi-periodic pulsations: 1 second cadence observations by Solar Orbiter/EUI  
 > 2025  
 Astronomy & Astrophysics, 704, A58  
-**`Daye Lim`**, Tom Van Doorsselaere, Nancy Narang, Laura A. Hayes, Emil Kraaikamp, Aadish Joshi, Konstantina Loumou, Cis Verbeeck, David Berghmans, and Krzysztof Barczynski  
+**`Daye Lim*`**, Tom Van Doorsselaere, Nancy Narang, Laura A. Hayes, Emil Kraaikamp, Aadish Joshi, Konstantina Loumou, Cis Verbeeck, David Berghmans, and Krzysztof Barczynski  
 DOI: [10.1051/0004-6361/202557135][30-link]  
 
 [30-link]: https://doi.org/10.1051/0004-6361/202557135  
@@ -81,7 +81,7 @@ DOI: [10.1051/0004-6361/202554650][26-link]
 ### 25. Quasi-periodic pulsations in extreme-ultraviolet brightenings  
 > 2025  
 Astronomy & Astrophysics, 698, A65  
-**`Daye Lim`**, Tom Van Doorsselaere, David Berghmans, Laura Hayes, Cis Verbeeck, Nancy Narang, and Marie Dominique  
+**`Daye Lim*`**, Tom Van Doorsselaere, David Berghmans, Laura Hayes, Cis Verbeeck, Nancy Narang, and Marie Dominique  
 DOI: [10.1051/0004-6361/202554587][25-link]  
 
 [25-link]: https://doi.org/10.1051/0004-6361/202554587  
@@ -105,7 +105,7 @@ DOI: [10.3847/1538-4357/ad95fb][23-link]
 ### 22. Undersampling effects on observed periods of coronal oscillations  
 > 2024  
 Astronomy & Astrophysics, 690, L8  
-**`Daye Lim`**, Tom Van Doorsselaere, Valery M. Nakariakov, Dmitrii Y. Kolotkov, Yuhang Gao, and David Berghmans  
+**`Daye Lim*`**, Tom Van Doorsselaere, Valery M. Nakariakov, Dmitrii Y. Kolotkov, Yuhang Gao, and David Berghmans  
 DOI: [10.1051/0004-6361/202451684][22-link]
 
 [22-link]: https://doi.org/10.1051/0004-6361/202451684  
@@ -113,7 +113,7 @@ DOI: [10.1051/0004-6361/202451684][22-link]
 ### 21. Characteristics and energy flux distributions of decayless transverse oscillations depending on coronal regions  
 > 2024
 Astronomy & Astrophysics, 689, A16  
-**`Daye Lim`**, Tom Van Doorsselaere, David Berghmans, and Elena Petrova  
+**`Daye Lim*`**, Tom Van Doorsselaere, David Berghmans, and Elena Petrova  
 DOI: [10.1051/0004-6361/202450433][21-link]
 
 [21-link]: https://www.aanda.org/articles/aa/abs/2024/09/aa50433-24/aa50433-24.html  
@@ -129,7 +129,7 @@ DOI: [10.1051/0004-6361/202346670][20-link]
 ### 19. The Role of High-frequency Transverse Oscillations in Coronal Heating  
 > 2023  
 Astrophysical Journal Letters, 952, L15  
-**`Daye Lim`**, Tom Van Doorsselaere, David Berghmans, Richard J. Morton, Vaibhav Pant, and Sudip Mandal  
+**`Daye Lim*`**, Tom Van Doorsselaere, David Berghmans, Richard J. Morton, Vaibhav Pant, and Sudip Mandal  
 DOI: [10.3847/2041-8213/ace423][19-link]  
 
 [19-link]: https://iopscience.iop.org/article/10.3847/2041-8213/ace423  
