@@ -30,6 +30,16 @@ theme = 'hermit'
     weight = 20
 
   [[menu.main]]
+    name = "Seminars"
+    url = "seminars/"
+    weight = 30
+  
+  [[menu.main]]
+    name = "Conferences"
+    url = "conferences/"
+    weight = 40
+
+  [[menu.main]]
     name = "Major Solar Flare Probability Forecast Board"
     url = "https://dayelim.github.io/MajorSolarFlareForecastBoard/"
-    weight = 30
+    weight = 50
