@@ -7,6 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://DayeLim.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Conferences</title>
+      <link>https://DayeLim.github.io/conferences/</link>
+      <pubDate>Sat, 10 Oct 2026 13:58:39 +0100</pubDate>
+      
+      <guid>https://DayeLim.github.io/conferences/</guid>
+      <description>24 Jul 2026
+National Astronomy Meeting 2026, UK
+“A universal scaling between damping time and period of decay phase quasi-periodic pulsations”, Oral talk
+  20 Jan 2026
+ISRO-ESA Heliophysics Workshop on Aditya-L1, Solar Orbiter and Proba-3, India
+“Solar Orbiter observations and Bifrost simulations of plasmoid mediated reconnection”, Oral talk
+  19 Jan 2026
+ISRO-ESA Heliophysics Workshop on Aditya-L1, Solar Orbiter and Proba-3, India
+“Accessing the fine temporal scale of EUV brightenings and their quasi-periodic pulsations: 1 second cadence observations by Solar Orbiter/EUI”, Oral talk</description>
+    </item>
+    
+    <item>
+      <title>Seminars</title>
+      <link>https://DayeLim.github.io/seminars/</link>
+      <pubDate>Sat, 10 Oct 2026 13:58:27 +0100</pubDate>
+      
+      <guid>https://DayeLim.github.io/seminars/</guid>
+      <description>08 Oct 2026
+Plasma Dynamics Group, University of Sheffield
+“From EUV Brightenings to Stellar Flares: Universal Scaling of Quasi-Periodic Pulsations”
+  07 Oct 2026
+Geophysical and Astrophysical Fluid Dynamics, University of Exeter
+“From EUV Brightenings to Stellar Flares: Universal Scaling of Quasi-Periodic Pulsations”
+  04 Jun 2026
+European Solar Physics Online Seminars
+“From EUV Brightenings to Stellar Flares: Universal Scaling of Quasi-Periodic Pulsations”
+  16 May 2025</description>
+    </item>
+    
+    <item>
       <title>Publications</title>
       <link>https://DayeLim.github.io/publications/</link>
       <pubDate>Wed, 10 Aug 2022 08:19:51 +0200</pubDate>
