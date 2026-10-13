@@ -7,6 +7,10 @@ draft: true
 National Astronomy Meeting 2026, UK  
 “A universal scaling between damping time and period of decay phase quasi-periodic pulsations”, Oral talk  
 
+> 16 Mar 2026  
+Solar Orbiter – IRIS – ADITYA Joint Workshop, Germany  
+“Accessing the fine temporal scale of EUV brightenings and their quasi-periodic pulsations: 1 second cadence observations by Solar Orbiter/EUI”, Oral talk  
+
 > 20 Jan 2026  
 ISRO-ESA Heliophysics Workshop on Aditya-L1, Solar Orbiter and Proba-3, India  
 “Solar Orbiter observations and Bifrost simulations of plasmoid mediated reconnection”, Oral talk  
@@ -23,6 +27,10 @@ Interdisciplinary Physics of the Sun, Spanish‐German WE-Heraeus-Seminar, Germa
 Hinode 18 - IRIS 16 Meeting, UK  
 “Quasi-periodic pulsations in EUV brightenings detected with Solar Orbiter/EUI”, Oral talk  
 
+> 05 Nov 2024  
+AAPPS-DPP 2024, Malaysia  
+“The Role of High-Frequency Transverse Oscillations in Coronal Heating”, Invited talk  
+
 > 23 Oct 2024  
 EUI-STIX Consortium Meeting, Switzerland  
 “Quasi-periodic pulsations in campfires”, Oral talk  
@@ -31,6 +39,10 @@ EUI-STIX Consortium Meeting, Switzerland
 17th European Solar Physics Meeting, Italy  
 “Characteristics and energy flux distributions of decayless transverse oscillations depending on coronal regions”, Poster  
 
+> 13 Jul 2024  
+COSPAR 2024 45th Scientific Assembly, Korea  
+“Waves in the Solar Corona and Their Heating”, Invited talk  
+
 > 25 Jun 2024  
 11th Coronal Loops Workshop, Spain  
 “Characteristics and energy flux distributions of decayless transverse oscillations depending on coronal regions”, Oral talk  
@@ -38,6 +50,10 @@ EUI-STIX Consortium Meeting, Switzerland
 > 21 May 2024  
 The Coronal Cooling Conference: rain, prominences and eruptions, Belgium  
 “The role of high-frequency oscillations in coronal heating”, Poster  
+
+> 10 Oct 2023  
+1-day BINA/BIPASS Meeting, Belgium  
+“Decayless Transverse Oscillations in the Solar Corona”, Invited talk  
 
 > 14 Sep 2023  
 The 30th EUI Consortium Meeting, France  
