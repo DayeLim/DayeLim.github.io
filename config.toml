@@ -40,6 +40,11 @@ theme = 'hermit'
     weight = 40
 
   [[menu.main]]
+    name = "Solar Orbiter/EUI Data Sequence List"
+    url = "https://docs.google.com/spreadsheets/d/1gjcOGc4lwKMryx79znmbNSp_xbwGKWdxvhugPTY9jqE/edit?gid=1534294560#gid=1534294560"
+    weight = 50  
+
+  [[menu.main]]
     name = "Major Solar Flare Probability Forecast Board"
     url = "https://dayelim.github.io/MajorSolarFlareForecastBoard/"
-    weight = 50
+    weight = 60
