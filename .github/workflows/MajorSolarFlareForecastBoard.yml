@@ -1,12 +1,9 @@
+
 name: Major Solar Flare Forecast Board
 
 on:
   schedule:
   - cron: "*/24 * * * *"
-
-# on:
-#   push:
-#     branches: [ master ]
 
 jobs:
   build:
@@ -14,70 +11,34 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.sha }}
-      # - name: environment
-      #   run: |
-      #     echo "export ENV=DEV" > ~/.bashrc
-      # - name: get_env
-      #   run: |
-      #     source ~/.bashrc
-      #     echo $ENV
-      # - name: set env vars
-      #   env:
-      #     foo: bar
+
       - name: delete files
-        run: |        
+        run: |
           ls public/MajorSolarFlareForecastBoard/resource/
           rm public/MajorSolarFlareForecastBoard/resource/*.html
           ls public/MajorSolarFlareForecastBoard/resource/
-          
+
       - uses: actions/setup-node@v4
         with:
           node-version: 14
 
       - name: npm ci
         run: npm ci
-        
+
       - name: node index.js
         run: |
           cd public/RestAPI
           node index.js
-      
+
       - name: delete node modules
         run: |
           rm -rf node_modules
-      
-      - name: actions/checkout@v2
+
+      - name: commit and push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "generated"          
-          git pull
+          git commit -m "generated"
+          git pull --rebase
           git push
-
-      # - name: git config
-      #   env:
-      #     USER_NAME: ${{ github.event.pusher.name }}
-      #     USER_EMAIL: ${{ github.event.pusher.email }}
-      #     USER_TOKEN: ${{ github.event.pusher.token }}
-      #   run: |
-      #     git config --global user.email "$USER_EMAIL"
-      #     git config --global user.name "$USER_NAME"    
-      #     git remote add gh-token "https://$USER_TOKEN@github.com/:user/:repo.git"
-      #     git fetch gh-token && git fetch gh-token gh-pages:gh-pages
-      #     git push gh-token gh-pages
-          
-      # - name: Deploy Files
-      #   run: |
-      #     git config user.name "${{ env.GH_USER }}"
-      #     git config user.email "${{ env.GH_MAIL }}"
-      #     git remote add gh-token "https://${{ env.GH_TOKEN }}@github.com/:user/:repo.git"
-      #     git fetch gh-token && git fetch gh-token gh-pages:gh-pages
-      #     git push gh-token gh-pages
-
-      # - name: cd data
-      #   run: |
-      #     cd dataviewer/resource/
-      #     ls
